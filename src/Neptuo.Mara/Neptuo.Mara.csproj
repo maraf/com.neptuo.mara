@@ -107,16 +107,21 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\HttpRequestBaseExtensions.cs" />
+    <Compile Include="Models\Timelining\NodeDataService.cs" />
+    <Compile Include="Models\Timelining\NodeList.cs" />
+    <Compile Include="Models\Timelining\NodeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Content\Images\Background.png" />
+    <Content Include="App_Data\Timeline.xml" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\BackgroundSingle.png" />
     <Content Include="Content\Images\FootBackground.png" />
+    <Content Include="Content\Images\TimelineBackground.png" />
     <Content Include="Content\Stylesheet\common.css" />
     <Content Include="Content\Stylesheet\design.css" />
     <Content Include="Content\Stylesheet\folder.css" />
@@ -163,9 +168,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Content\Home.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />

@@ -1,7 +1,31 @@
-﻿<div class="folder">
+﻿@model IEnumerable<IGrouping<int, Neptuo.Mara.Models.Timelining.NodeModel>>
+<div class="folder">
     My name if Marek Fišera. I work as a free lence (currently available for hire) and here is my professional life review. 
 </div>
 
 <div class="timeline">
+    @{ 
+        var index = 1;
+    }
+    @foreach (var year in Model)
+    {
+        <div class="folder year">@year.Key</div>
 
+        foreach (var node in year)
+        {
+            index++;
+            <div class="node @(index % 2 == 0 ? "left" : "right")">
+                <div class="folder">
+                    <div class="date">
+                        <div class="day">@node.When.Day</div>
+                        <div class="month">@node.When.ToString("MMM")</div>
+                    </div>
+                    @node.Title
+                    <div class="clear"></div>
+                </div>
+            </div>
+        }
+    }
+
+    <div class="clear"></div>
 </div>

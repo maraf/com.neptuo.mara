@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Neptuo.Mara.Models.Timelining;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +11,8 @@ namespace Neptuo.Mara.Controllers
     {
         public ActionResult Home()
         {
-            return View();
+            NodeDataService dataService = new NodeDataService(Request.MapPath(NodeDataService.DataUri));
+            return View(dataService.Get().GroupBy(n => n.When.Year));
         }
 
         public ActionResult Books()

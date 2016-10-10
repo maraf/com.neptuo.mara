@@ -164,8 +164,7 @@ body {
   text-align: left; }
 
 .body {
-  margin-top: 100px;
-  margin-bottom: 20px; }
+  margin-top: 100px; }
 
 /* ====== FOOTER =============================================================================== */
 footer {
@@ -183,50 +182,58 @@ footer a:hover {
   color: #666666; }
 
 footer .left, footer .right, footer .center {
-  padding: 10px 10px; }
+  padding: 0px 10px; }
 
-/* ====== IMAGES =============================================================================== */
-.image-left, .image-right {
-  float: left; }
+/* ====== TIMELINE ============================================================================= */
+.timeline {
+  padding-bottom: 20px;
+  background: url("Images/TimelineBackground.png") repeat-y center top; }
 
-.image-left img, .image-right img, img.image-left, img.image-right {
-  display: block;
-  background: url("http://www.votocvohoz.cz/assets/default/loading16.gif") no-repeat center center; }
+.timeline .year {
+  width: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3px;
+  clear: both; }
 
-.image-left img + img, .image-right img + img {
-  margin-top: 10px; }
+.timeline .node {
+  width: 50%;
+  margin-top: -40px;
+  background: url("Images/FootBackground.png") repeat-x left center; }
 
-.image-left {
-  margin: 10px 0 10px 10px; }
+.timeline .node:first-child {
+  margin-top: 0; }
 
-.image-right {
-  margin: 10px 10px 10px 0px; }
+.timeline .node.left {
+  clear: right; }
 
-img.main-image {
-  max-width: 100%;
-  margin: 10px auto;
-  display: block; }
+.timeline .node.right {
+  clear: left; }
 
-img.additional-image {
-  height: 150px;
-  margin: 0px 10px 10px 0;
+.timeline .node .folder {
+  margin-right: 40px;
+  margin-left: 40px; }
+
+.timeline .date {
+  width: 50px;
+  border: 0px solid #C0C0C0; }
+
+.timeline .node.left .date {
+  float: right;
+  margin-left: 10px;
+  border-left-width: 1px; }
+
+.timeline .node.right .date {
   float: left;
-  display: block; }
+  margin-right: 10px;
+  border-right-width: 1px; }
 
-/* ====== VERSIONS ============================================================================= */
-ul.version {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
+.timeline .date .day, .date .month {
+  text-align: center; }
 
-ul.version li {
-  margin: 20px 0; }
-
-ul.version ul {
-  list-style-type: disc; }
-
-ul.version li li {
-  margin: 0; }
+.timeline .date .day {
+  font-weight: bold;
+  font-size: 20px; }
 
 /* ====== FOLDER =============================================================================== */
 .folder {

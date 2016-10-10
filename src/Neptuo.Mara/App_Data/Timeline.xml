@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Timeline>
+  <Node>
+    <When>2016-10-10</When>
+    <Title>Starting with Timeline web design.</Title>
+    <Description>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt purus eget quam rhoncus gravida. Suspendisse ut eros vel neque ultrices iaculis sit amet a ex.
+    </Description>
+  </Node>
+  <Node>
+    <When>2016-09-01</When>
+    <Title>Started writing blog at http://www.neptuo.com/blog.</Title>
+  </Node>
+  <Node>
+    <When>2016-08-10</When>
+    <Title>Enjoyed vacation...</Title>
+  </Node>
+  <Node>
+    <When>2014-06-27</When>
+    <Title>Finished my master's degree.</Title>
+    <Description>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt purus eget quam rhoncus gravida. Suspendisse ut eros vel neque ultrices iaculis sit amet a ex.
+    </Description>
+  </Node>
+</Timeline>
