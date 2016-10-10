@@ -1,19 +1,68 @@
-﻿<!DOCTYPE html>
+﻿@helper MenuItem(string text, string subtext, string icon, string url, bool isExactUrlMatched = false)
+{
+    <li class="@Request.ActiveCssClass(url, isExactUrlMatched)">
+        <a href="@Request.ResolveUrl(url)">
+            <div class="maintext">
+                @text
+                <span class="glyphicon glyphicon-@icon"></span>
+            </div>
+            <div class="subtext">@subtext</div>
+        </a>
+    </li>
+}
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Marek Fišera</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <title>@((ViewBag.Title != null ? ViewBag.Title + " - " : "") + "Marek Fišera")</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="~/Content/web.min.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <button class="navbar-toggle">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+
+            <ul class="left">
+                @MenuItem("Me", "My developer's life", "home", "~/", true)
+                @MenuItem("Books", "Books I liked or don't", "book", "~/books")
+            </ul>
+        </div>
+    </nav>
+
+    <div class="body">
+        <form>
+
+            <div class="container">
+                @RenderBody()
+            </div>
+
+        </form>
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="left">
+                <span>Marek Fišera &copy; 2016</span>
+                @RenderSection("FooterLeft", false)
+            </div>
+            <div class="right">
+                <span>Created by <a target="_blank" href="http://mara.neptuo.com">Marek Fišera</a></span>
+                @RenderSection("FooterRight", false)
+            </div>
+            <div class="center">
+                @RenderSection("FooterCenter", false)
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
 </body>
 </html>
