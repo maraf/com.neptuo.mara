@@ -10,15 +10,44 @@
         <span class="fa fa-star"></span>
     }
 }
-<div class="books">
-    <div class="col-md-4">
-        <div class="folder preface">
-            A few years back, when I read through Lord of The Rigs, my passion for sci-fi and fantasy books started.
-            Since then I read 3 - 5 books a year.
-            Here is a list of those I have read with my (personal) rating.
-        </div>
-    </div>
 
+<div class="folder preface">
+    <div class="col-md-10">
+        <h2 class="folder-heading">Preface</h2>
+        <p>
+            A few years back, when I read through Lord of The Rings trilogy, my passion for sci-fi and fantasy books started.
+        </p>
+        <p>
+            Since then I read 3 to 5 books a year.
+            Here is a list of those I have read with my (personal and only personal) rating.
+        </p>
+        <p>
+            Most of them I have read in Czech, so primary names are in Czech, and so preview images, and secondary names are original.
+        </p>
+        <p>
+            The date included with the book is a date when I have read it and all books are sorted chronologically.
+        </p>
+    </div>
+    <div class="col-md-2">
+        <h2 class="folder-heading">Stats</h2>
+        <table>
+            <tr>
+                <td>Total</td>
+                <td>@Model.Count()</td>
+            </tr>
+            @foreach (var year in Model.GroupBy(b => b.When.Year))
+            {
+                <tr>
+                    <td>@year.Key</td>
+                    <td>@year.Count()</td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="books">
     @foreach (var book in Model)
     {
         <article class="col-md-4">

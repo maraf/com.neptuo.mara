@@ -305,14 +305,24 @@ footer .left, footer .right, footer .center {
   text-align: right; }
 
 /* ====== BOOKS ================================================================================ */
+.preface {
+  text-align: justify; }
+
+.preface table {
+  width: 100%; }
+
+.preface .col-md-10 {
+  padding-left: 0; }
+
 .books {
   /*.rating .fa-star {
         color: #FFD76E;
     }*/ }
   .books .folder {
     height: 360px; }
-  .books .folder.preface {
-    text-align: justify; }
+  .books .folder.preface h2 {
+    font-weight: bold;
+    text-align: left; }
   .books .folder .book-image {
     height: 240px; }
   .books .folder img {

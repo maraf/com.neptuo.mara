@@ -318,13 +318,26 @@ footer .left, footer .right, footer .center {
 
 /* ====== BOOKS ================================================================================ */
 
+.preface {
+    text-align: justify;
+}
+
+.preface table {
+    width: 100%;
+}
+
+.preface .col-md-10 {
+    padding-left: 0;
+}
+
 .books {
     .folder {
         height: 360px;
     }
 
-    .folder.preface {
-        text-align: justify;
+    .folder.preface h2 {
+        font-weight: bold;
+        text-align: left;
     }
 
     .folder .book-image {
