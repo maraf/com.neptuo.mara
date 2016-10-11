@@ -4,16 +4,26 @@
     <When>2016-10-10</When>
     <Title>Starting with Timeline web design</Title>
     <Description>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt purus eget quam rhoncus gravida. Suspendisse ut eros vel neque ultrices iaculis sit amet a ex.
+      Well, the initial tought was to display all my work, projects and life milestones and a stream of events.
+      So I have started with this Timeline.
     </Description>
   </Node>
   <Node>
     <When>2016-09-01</When>
-    <Description Language="Markdown">Started writing blog at [neptuo/blog](http://www.neptuo.com/blog).</Description>
+    <Description Language="Markdown">
+      Started blogging at [neptuo/blog](http://www.neptuo.com/blog).
+      It is a technology blog with based on experiences.
+    </Description>
   </Node>
+  
+  
   <Node>
     <When>2016-08-10</When>
-    <Description>Enjoyed vacation...</Description>
+    <Description Language="Markdown">
+      Enjoyed vacation...
+      I'm kidding, no vacation this summer. 
+      Unfortunatelly.
+    </Description>
   </Node>
   <Node>
     <When>2014-06-27</When>
