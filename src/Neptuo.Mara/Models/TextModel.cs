@@ -1,4 +1,5 @@
 ﻿using CommonMark;
+using CommonMark.Formatters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,11 @@ namespace Neptuo.Mara.Models
                 case Language.Html:
                     return Content;
                 case Language.Markdown:
-                    return CommonMarkConverter.Convert(Content);
+                    CommonMarkSettings.Default.OutputDelegate = (doc, output, settings) =>
+                        new HtmlFormatter(output, settings).WriteDocument(doc);
+
+                    string html = CommonMarkConverter.Convert(Content);
+                    return html;
                 default:
                     throw new NotSupportedException(Language.ToString());
             }
