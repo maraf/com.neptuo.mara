@@ -183,7 +183,6 @@ footer .left, footer .right, footer .center {
 .timeline .node {
     width: 50%;
     margin-top: -40px;
-    background: url('Images/FootBackground.png') repeat-x left center;
 }
 
 .timeline .node:first-child {
@@ -198,9 +197,18 @@ footer .left, footer .right, footer .center {
     clear: left;
 }
 
+.timeline .node .node-content {
+    background: url('Images/FootBackground.png') repeat-x left center;
+}
+
+.timeline .node.left .node-content {
+    padding-left: 40px;
+}
+.timeline .node.left .node-content {
+    padding-right: 40px;
+}
+
 .timeline .node .folder {
-    margin-right: 40px;
-    margin-left: 40px;
 }
 
 .timeline .date {
