@@ -1,4 +1,4 @@
-﻿@model IEnumerable<IGrouping<int, Neptuo.Mara.Models.Timelining.NodeModel>>
+﻿@model IEnumerable<IGrouping<int, NodeModel>>
 <div class="folder">
     My name if Marek Fišera. I work as a free lence (currently available for hire) and here is my professional life review. 
 </div>
@@ -15,13 +15,15 @@
         {
             index++;
             <div class="node @(index % 2 == 0 ? "left" : "right")">
-                <div class="folder">
-                    <div class="date">
-                        <div class="day">@node.When.Day</div>
-                        <div class="month">@node.When.ToString("MMM")</div>
+                <div class="node-content">
+                    <div class="folder">
+                        <div class="date">
+                            <div class="day">@node.When.Day</div>
+                            <div class="month">@node.When.ToString("MMM")</div>
+                        </div>
+                        @node.Title
+                        <div class="clear"></div>
                     </div>
-                    @node.Title
-                    <div class="clear"></div>
                 </div>
             </div>
         }

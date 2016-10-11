@@ -122,9 +122,9 @@
     <Content Include="Content\Images\BackgroundSingle.png" />
     <Content Include="Content\Images\FootBackground.png" />
     <Content Include="Content\Images\TimelineBackground.png" />
-    <Content Include="Content\Stylesheet\common.css" />
-    <Content Include="Content\Stylesheet\design.css" />
-    <Content Include="Content\Stylesheet\folder.css" />
+    <None Include="Content\Stylesheet\common.scss" />
+    <None Include="Content\Stylesheet\design.scss" />
+    <None Include="Content\Stylesheet\folder.scss" />
     <Content Include="Content\web.css">
       <DependentUpon>web.scss</DependentUpon>
     </Content>
