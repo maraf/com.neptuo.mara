@@ -25,7 +25,10 @@
                                     <div class="folder-heading">@node.Title</div>
                                 }
 
-                                <div class="folder-content">@Html.Raw(node.Description.ContentToHtml())</div>
+                                @if (node.Description != null)
+                                {
+                                    <div class="folder-content">@Html.Raw(node.Description.ContentToHtml())</div>
+                                }
                             </div>
                             <div class="clear"></div>
                         </div>
