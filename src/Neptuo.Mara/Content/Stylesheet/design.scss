@@ -109,7 +109,7 @@ body {
     width: 100px;
     height: 100px;
     display: block;
-    float: left
+    float: left;
 }
 
 .intro {
@@ -147,10 +147,10 @@ body {
 }
 
 .my-name img {
-    width: 80px; 
-    height: 80px; 
+    width: 80px;
+    height: 80px;
     display: block;
-    margin: 10px 0; 
+    margin: 10px 0;
     border-radius: 40px;
 }
 
@@ -227,7 +227,6 @@ footer .left, footer .right, footer .center {
     margin: 0 auto 20px auto;
     padding: 3px;
     clear: both;
-
     color: white;
     background: #E8E8E8 url('Images/BackgroundSingle.png') repeat 0 bottom;
 }
@@ -315,4 +314,51 @@ footer .left, footer .right, footer .center {
 
 .timeline .node.left {
     text-align: right;
+}
+
+/* ====== BOOKS ================================================================================ */
+
+.books {
+    .folder {
+        height: 360px;
+    }
+
+    .folder.preface {
+        text-align: justify;
+    }
+
+    .folder .book-image {
+        height: 240px;
+    }
+
+    .folder img {
+        max-width: 170px;
+        max-height: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .folder .folder-heading {
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .folder .folder-heading .original-name {
+        font-style: italic;
+    }
+
+    /*.rating .fa-star {
+        color: #FFD76E;
+    }*/
+
+    .folder .date {
+        color: #999;
+        font-style: italic;
+    }
+
+    .folder .rating .fa-star-o {
+        color: #999;
+    }
 }

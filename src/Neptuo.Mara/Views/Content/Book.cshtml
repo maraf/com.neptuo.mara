@@ -1,2 +1,47 @@
 ﻿@model IEnumerable<BookModel>
+@helper Rating(int rating)
+{
+    for (int i = 0; i < 5 - rating; i++)
+    {
+        <span class="fa fa-star-o"></span>
+    }
+    for (int i = 0; i < rating; i++)
+    {
+        <span class="fa fa-star"></span>
+    }
+}
+<div class="books">
+    <div class="col-md-4">
+        <div class="folder preface">
+            A few years back, when I read through Lord of The Rigs, my passion for sci-fi and fantasy books started.
+            Since then I read 3 - 5 books a year.
+            Here is a list of those I have read with my (personal) rating.
+        </div>
+    </div>
 
+    @foreach (var book in Model)
+    {
+        <article class="col-md-4">
+            <div class="folder">
+                @if (!String.IsNullOrEmpty(book.Image))
+                {
+                    <div class="book-image">
+                        <img src="@Request.ResolveUrl(book.Image)" title="@book.Name" alt="@book.Name" />
+                    </div>
+                }
+
+                <h2 class="folder-heading">
+                    <strong>@book.Name</strong>
+                    <div class="original-name">@book.OriginalName</div>
+                </h2>
+                <div class="folder-content">
+                    <div class="left date">@book.When.ToString("yyyy-MM-dd")</div>
+                    <div class="right rating">
+                        @Rating(book.Rating)
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </article>
+    }
+</div>

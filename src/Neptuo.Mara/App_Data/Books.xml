@@ -1,9 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
+  
+  
   <Book>
-    <When>2016-10-10</When>
-    <Name>Pán prstenů: Společenstvo Prstenu</Name>
-    <OriginalName>Lord of The Rings: The Fellowship of the Ring</OriginalName>
+    <When>2016-08-15</When>
+    <Name>Návrat krále</Name>
+    <OriginalName>The Return of the King</OriginalName>
     <Rating>4</Rating>
+    <Image>~/Content/Images/Books/pan-prstenu-navrat-krale.jpg</Image>
+  </Book>
+  <Book>
+    <When>2012-06-10</When>
+    <Name>Dvě věže</Name>
+    <OriginalName>The Two Towers</OriginalName>
+    <Rating>3</Rating>
+    <Image>~/Content/Images/Books/pan-prstenu-dve-veze.jpg</Image>
+  </Book>
+  <Book>
+    <When>2012-05-23</When>
+    <Name>Společenstvo Prstenu</Name>
+    <OriginalName>The Fellowship of the Ring</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/pan-prstenu-spolecenstvo-prstenu.jpg</Image>
   </Book>
 </Books>

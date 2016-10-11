@@ -132,6 +132,9 @@
     <Content Include="App_Data\Books.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\Images\Books\pan-prstenu-dve-veze.jpg" />
+    <Content Include="Content\Images\Books\pan-prstenu-navrat-krale.jpg" />
+    <Content Include="Content\Images\Books\pan-prstenu-spolecenstvo-prstenu.jpg" />
     <Content Include="Views\Content\Book.cshtml" />
     <Resource Include="Content\Images\Background.png" />
     <Content Include="App_Data\Timeline.xml">

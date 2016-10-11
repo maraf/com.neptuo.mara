@@ -304,6 +304,35 @@ footer .left, footer .right, footer .center {
 .timeline .node.left {
   text-align: right; }
 
+/* ====== BOOKS ================================================================================ */
+.books {
+  /*.rating .fa-star {
+        color: #FFD76E;
+    }*/ }
+  .books .folder {
+    height: 360px; }
+  .books .folder.preface {
+    text-align: justify; }
+  .books .folder .book-image {
+    height: 240px; }
+  .books .folder img {
+    max-width: 170px;
+    max-height: 240px;
+    display: block;
+    margin: 0 auto; }
+  .books .folder .folder-heading {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center; }
+  .books .folder .folder-heading .original-name {
+    font-style: italic; }
+  .books .folder .date {
+    color: #999;
+    font-style: italic; }
+  .books .folder .rating .fa-star-o {
+    color: #999; }
+
 /* ====== FOLDER =============================================================================== */
 .folder {
   margin: 10px;
@@ -315,7 +344,7 @@ footer .left, footer .right, footer .center {
 .folder-heading {
   margin-bottom: 5px;
   padding-bottom: 5px;
-  color: #999999;
+  color: #999;
   border-bottom: 1px solid #C0C0C0; }
 
 .folder-heading h1, .folder-heading h2, .folder-heading h3, .folder-heading h4, .folder-heading h5, .folder-heading h6 {
