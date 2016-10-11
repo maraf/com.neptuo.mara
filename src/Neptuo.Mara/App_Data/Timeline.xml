@@ -9,11 +9,11 @@
   </Node>
   <Node>
     <When>2016-09-01</When>
-    <Title>Started writing blog at http://www.neptuo.com/blog.</Title>
+    <Description Language="Markdown">Started writing blog at [neptuo/blog](http://www.neptuo.com/blog).</Description>
   </Node>
   <Node>
     <When>2016-08-10</When>
-    <Title>Enjoyed vacation...</Title>
+    <Description>Enjoyed vacation...</Description>
   </Node>
   <Node>
     <When>2014-06-27</When>

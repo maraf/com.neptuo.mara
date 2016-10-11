@@ -20,15 +20,12 @@
                                 <div class="month">@node.When.ToString("MMM")</div>
                             </div>
                             <div class="node-content">
-                                @if (String.IsNullOrEmpty(node.Description))
-                                {
-                                    <div class="folder-content">@node.Title</div>
-                                }
-                                else
+                                @if (node.Title != null)
                                 {
                                     <div class="folder-heading">@node.Title</div>
-                                    <div class="folder-content">@node.Description</div>
                                 }
+
+                                <div class="folder-content">@Html.Raw(node.Description.ContentToHtml())</div>
                             </div>
                             <div class="clear"></div>
                         </div>

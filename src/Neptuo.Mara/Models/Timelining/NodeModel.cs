@@ -12,6 +12,6 @@ namespace Neptuo.Mara.Models.Timelining
     {
         public DateTime When { get; set; }
         public string Title { get; set; }
-        public string Description { get; set; }
+        public TextModel Description { get; set; }
     }
 }
