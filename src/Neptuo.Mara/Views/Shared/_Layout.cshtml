@@ -4,7 +4,7 @@
         <a href="@Request.ResolveUrl(url)">
             <div class="maintext">
                 @text
-                <span class="glyphicon glyphicon-@icon"></span>
+                <span class="fa fa-@icon"></span>
             </div>
             <div class="subtext">@subtext</div>
         </a>
@@ -20,6 +20,7 @@
     <title>@((ViewBag.Title != null ? ViewBag.Title + " - " : "") + "Marek Fišera")</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
     <link href="~/Content/web.min.css" rel="stylesheet" />
 </head>
 <body>
@@ -31,16 +32,15 @@
             </button>
 
             <div class="my-name">
-                <img src="~/Content/Images/mnau2_sq.jpg" alt="Marek Fišera - icon" />
+                <img src="~/Content/Images/mnau2_sq.jpg" alt="My avatar" />
                 <div class="content">
                     Marek Fišera
                 </div>
-                <div class="overlay"></div>
             </div>
 
             <ul class="right">
-                @MenuItem("Me", "My developer's life", "education", "~/", true)
-                @MenuItem("Books", "Those I liked or don't", "book", "~/books")
+                @MenuItem("Me", "My developer's life", "graduation-cap", "~/", true)
+                @MenuItem("Books", "Those I liked or don't", "book", "~/book")
             </ul>
         </div>
     </nav>
@@ -48,13 +48,25 @@
     <div class="body">
         <div class="intro">
             <div class="container intro-content">
-                @*<img src="~/Content/Images/mnau2_sq.jpg" alt="Marek Fišera - icon" style="display: block; margin-top: -100px; z-index: 2000; position: relative;" />*@
-
                 <h1>My name is Marek Fišera</h1>
                 <p>
                     I am a freelancer (currently available for hire). <br />
                     My specialization is Javascript and C#. <br />
                     My passion is architecture, naming and structuring code.
+                </p>
+                <p class="social">
+                    <a target="_blank" href="https://github.com/maraf">
+                        <span class="fa fa-github"></span>
+                        source codes
+                    </a>
+                    <a target="_blank" href="https://twitter.com/maraf">
+                        <span class="fa fa-twitter"></span>
+                        thoughts and shares
+                    </a>
+                    <a href="#my-email" class="my-email">
+                        <span class="fa fa-envelope-o"></span>
+                        email
+                    </a>
                 </p>
             </div>
         </div>
@@ -79,5 +91,23 @@
         </div>
     </footer>
 
+    <script>
+
+        var myEmail = document.querySelector(".my-email");
+        if (myEmail != null) {
+            myEmail.addEventListener("click", function (e) {
+                alert(
+                    "To be sure that you are not robot...\n" +
+                    "\n" +
+                    "My email address is the current domain name where you replace first '.' (dot) by '@@' (at).\n" +
+                    "\n" +
+                    "Note: Take just the domain name, without protocol (http://) and any path after slash (/book, etc)."
+                );
+
+                e.preventDefault();
+            });
+        }
+
+    </script>
 </body>
 </html>

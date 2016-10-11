@@ -20,7 +20,7 @@ namespace Neptuo.Mara
             );
             routes.MapRoute(
                 name: "Books",
-                url: "books",
+                url: "book",
                 defaults: new { controller = "Content", action = "Books", id = UrlParameter.Optional }
             );
         }

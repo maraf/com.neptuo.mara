@@ -45,7 +45,7 @@ body {
     background: #157FCC;
 }
 
-.navbar a .glyphicon {
+.navbar a .fa {
     font-size: 35px;
     opacity: 0.5;
 }
@@ -164,6 +164,29 @@ body {
 
 .body {
     margin-top: 100px;
+}
+
+/* ====== SOCIAL =============================================================================== */
+
+p.social {
+    max-width: none;
+}
+
+.social a {
+    display: block;
+    float: left;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.social a:hover, .social a:active, .social a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.social .my-email {
+    margin-right: 25px;
+    float: right;
 }
 
 /* ====== FOOTER =============================================================================== */
