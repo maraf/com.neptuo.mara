@@ -105,6 +105,13 @@ body {
     line-height: 1;
 }
 
+.navbar ul li img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left
+}
+
 .intro {
     padding: 40px 0;
     background: #E8E8E8 url('Images/BackgroundSingle.png') repeat 0 bottom;
@@ -144,6 +151,7 @@ body {
 /* ====== FOOTER =============================================================================== */
 
 footer {
+    padding-top: 10px;
     background: url('Images/FootBackground.png') repeat-x left top;
 }
 
@@ -201,14 +209,22 @@ footer .left, footer .right, footer .center {
     background: url('Images/FootBackground.png') repeat-x left center;
 }
 
-.timeline .node.left .node-content {
+.timeline .node.right .node-content {
     padding-left: 40px;
-}
-.timeline .node.left .node-content {
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
-.timeline .node .folder {
+.timeline .node.right .node-content .folder {
+    margin-right: 0;
+}
+
+.timeline .node.left .node-content {
+    padding-right: 40px;
+    margin-left: 40px;
+}
+
+.timeline .node.left .node-content .folder {
+    margin-left: 0;
 }
 
 .timeline .date {

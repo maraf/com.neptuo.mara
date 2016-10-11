@@ -121,6 +121,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\BackgroundSingle.png" />
     <Content Include="Content\Images\FootBackground.png" />
+    <Content Include="Content\Images\mnau2_sq.jpg" />
     <Content Include="Content\Images\TimelineBackground.png" />
     <None Include="Content\Stylesheet\common.scss" />
     <None Include="Content\Stylesheet\design.scss" />
