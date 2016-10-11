@@ -83,7 +83,7 @@ body {
   border-radius: 0; }
 
 .navbar .container {
-  padding: 0; }
+  padding: 0 30px; }
 
 .navbar a {
   color: white; }
@@ -154,7 +154,7 @@ body {
 
 .intro h1 {
   font-family: "Gabriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 160px;
+  font-size: 120px;
   line-height: 1;
   letter-spacing: -2px;
   text-rendering: optimizelegibility;
@@ -168,6 +168,23 @@ body {
   color: white;
   font-size: 40px;
   text-align: left; }
+
+/* ====== MY NAME ============================================================================== */
+.my-name img, .my-name .content {
+  float: left; }
+
+.my-name img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 10px 0;
+  border-radius: 40px; }
+
+.my-name .content {
+  font-family: "Gabriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: white;
+  margin: 20px 0 0 20px; }
 
 .body {
   margin-top: 100px; }
@@ -193,15 +210,17 @@ footer .left, footer .right, footer .center {
 
 /* ====== TIMELINE ============================================================================= */
 .timeline {
-  padding-bottom: 20px;
+  padding: 40px 0 20px 0;
   background: url("Images/TimelineBackground.png") repeat-y center top; }
 
 .timeline .year {
   width: 50px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   padding: 3px;
-  clear: both; }
+  clear: both;
+  color: white;
+  background: #E8E8E8 url("Images/BackgroundSingle.png") repeat 0 bottom; }
 
 .timeline .node {
   width: 50%;

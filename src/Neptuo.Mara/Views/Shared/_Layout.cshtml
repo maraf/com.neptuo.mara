@@ -30,28 +30,37 @@
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
             </button>
 
-            <ul class="left">
-                <li>
-                    <img src="~/Content/Images/mnau2_sq.jpg" alt="Marek Fišera - icon" />
-                    @*<a>Marek Fišera</a>*@
-                </li>
-            </ul>
+            <div class="my-name">
+                <img src="~/Content/Images/mnau2_sq.jpg" alt="Marek Fišera - icon" />
+                <div class="content">
+                    Marek Fišera
+                </div>
+                <div class="overlay"></div>
+            </div>
 
             <ul class="right">
                 @MenuItem("Me", "My developer's life", "education", "~/", true)
-                @MenuItem("Books", "Books I liked or don't", "book", "~/books")
+                @MenuItem("Books", "Those I liked or don't", "book", "~/books")
             </ul>
         </div>
     </nav>
 
     <div class="body">
-        <form>
+        <div class="intro">
+            <div class="container intro-content">
+                @*<img src="~/Content/Images/mnau2_sq.jpg" alt="Marek Fišera - icon" style="display: block; margin-top: -100px; z-index: 2000; position: relative;" />*@
 
-            <div class="container">
-                @RenderBody()
+                <h1>My name is Marek Fišera</h1>
+                <p>
+                    I am a freelancer (currently available for hire). <br />
+                    My specialization is Javascript and C#. <br />
+                    My passion is architecture, naming and structuring code.
+                </p>
             </div>
-
-        </form>
+        </div>
+        <div class="container">
+            @RenderBody()
+        </div>
     </div>
 
     <footer>
