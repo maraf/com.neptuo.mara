@@ -1,16 +1,109 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
-<!--
   <Book>
-    <When>2014-01-24</When>
-    <Name></Name>
-    <OriginalName></OriginalName>
+    <When>2016-10-03</When>
+    <Name>Oceán na konci uličky</Name>
+    <OriginalName>The Ocean at the End of the Lane</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/ocean-na-konci-ulicky.jpg</Image>
+	<Author>Neil Gaiman</Author>
+  </Book>
+  <Book>
+    <When>2016-10-03</When>
+    <Name>Měsíc nad Soho</Name>
+    <OriginalName>Moon over Soho</OriginalName>
     <Rating>3</Rating>
-    <Image>~/Content/Images/Books/uzasna-zemeplocha-.jpg</Image>
+    <Image>~/Content/Images/Books/mesic-nad-soho.jpg</Image>
+	<Author>Ben Aaronovitch</Author>
+  </Book>
+  <Book>
+    <When>2015-11-20</When>
+    <Name>Dlouhá válka</Name>
+    <OriginalName>The Long War</OriginalName>
+    <Rating>2</Rating>
+    <Image>~/Content/Images/Books/dlouha-valka.png</Image>
+	<Author>Terry Pratchett;Stephen Baxter</Author>
+  </Book>
+  <Book>
+    <When>2015-08-18</When>
+    <Name>Tracyho tygr</Name>
+    <OriginalName>Tracy's Tiger</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/tracyho-tygr.jpg</Image>
+	<Author>William Saroyan</Author>
+  </Book>
+  <Book>
+    <When>2015-08-18</When>
+    <Name>Mluvčí za mrtvé</Name>
+    <OriginalName>Speaker for the Dead</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/mluvci-za-mrtve.jpg</Image>
+	<Author>O. S. Card</Author>
+  </Book>
+  <Book>
+    <When>2015-08-08</When>
+    <Name>Dlouhá Země</Name>
+    <OriginalName>The Long Earth</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/dlouha-zeme.jpg</Image>
+	<Author>Terry Pratchett;Stephen Baxter</Author>
+  </Book>
+  <Book>
+    <When>2015-06-13</When>
+    <Name>Merde! Rok v Paříži</Name>
+    <OriginalName>A Year in the Merde</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/merde-rok-v-parizi.jpg</Image>
+	<Author>Stephen Clarke</Author>
+  </Book>
+  <Book>
+    <When>2015-06-03</When>
+    <Name>Kuchařka Stařenky Oggové</Name>
+    <OriginalName>Nanny Ogg</OriginalName>
+    <Rating>2</Rating>
+    <Image>~/Content/Images/Books/kucharka-starenky-oggove.jpg</Image>
 	<Author>Terry Pratchett</Author>
   </Book>
- -->
-  
+  <Book>
+    <When>2014-01-24</When>
+    <Name>Stoletý stařík,který vylezl z okna a zmizel</Name>
+    <OriginalName>Hundraäringen som klev ut genom fönstret och försvan</OriginalName>
+    <Rating>5</Rating>
+    <Image>~/Content/Images/Books/stolety-starik-ktery-vylezl-z-okna-a-zmizel.jpg</Image>
+	<Author>Jonas Jonasson</Author>
+  </Book>
+  <Book>
+    <When>2014-10-24</When>
+    <Name>Kouř a zrcadla</Name>
+    <OriginalName>Smoke and Mirrors</OriginalName>
+    <Rating>3</Rating>
+    <Image>~/Content/Images/Books/kour-a-zrcadla.jpg</Image>
+	<Author>Neil Gaiman</Author>
+  </Book>
+  <Book>
+    <When>2014-07-26</When>
+    <Name>Příběhy Sherlocka Holmese</Name>
+    <OriginalName>A Study in Scarlet, The Sign of the Four, The Adventures of Sherlock Holmes</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/pribehy-sherlocka-holmese.jpg</Image>
+	<Author>A. C. Doyle</Author>
+  </Book>
+  <Book>
+    <When>2014-05-12</When>
+    <Name>Tři muží ve člunu</Name>
+    <OriginalName>	Three Men in a Boat</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/tri-muzi-ve-clunu-o-psu-nemluve.jpg</Image>
+	<Author>J. Klapka Jerome</Author>
+  </Book>
+  <Book>
+    <When>2014-05-12</When>
+    <Name>Čarodějky na cestách</Name>
+    <OriginalName>Witches Abroad</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/uzasna-zemeplocha-carodejky-na-cestach.jpg</Image>
+	<Author>Terry Pratchett</Author>
+  </Book>
   <Book>
     <When>2014-02-23</When>
     <Name>Jedenadvacet polibků</Name>
