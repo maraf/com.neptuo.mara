@@ -12,7 +12,7 @@ namespace Neptuo.Mara.Controllers
         public ActionResult Home()
         {
             NodeDataService dataService = new NodeDataService(Request.MapPath(NodeDataService.DataUri));
-            return View(dataService.Get().GroupBy(n => n.When.Year));
+            return View("Timeline", dataService.Get().GroupBy(n => n.When.Year));
         }
 
         public ActionResult Books()

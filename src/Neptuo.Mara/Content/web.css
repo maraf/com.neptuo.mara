@@ -248,42 +248,44 @@ footer .left, footer .right, footer .center {
 .timeline .node:first-child {
   margin-top: 0; }
 
-.timeline .node.left {
-  clear: right; }
-
 .timeline .node.right {
   clear: left; }
 
-.timeline .node .node-content {
+.timeline .node.left {
+  clear: right; }
+
+.timeline .node .node-folder {
   background: url("Images/FootBackground.png") repeat-x left center; }
 
-.timeline .node.right .node-content {
+.timeline .node.right .node-folder {
   padding-left: 40px;
   margin-right: 40px; }
 
-.timeline .node.right .node-content .folder {
-  margin-right: 0; }
-
-.timeline .node.left .node-content {
+.timeline .node.left .node-folder {
   padding-right: 40px;
   margin-left: 40px; }
 
-.timeline .node.left .node-content .folder {
+.timeline .node.right .node-folder .folder {
+  margin-right: 0; }
+
+.timeline .node.left .node-folder .folder {
   margin-left: 0; }
 
-.timeline .date {
+.timeline .node .date {
   width: 50px;
   border: 0px solid #C0C0C0; }
-
-.timeline .node.left .date {
-  float: right;
-  margin-left: 10px;
-  border-left-width: 1px; }
 
 .timeline .node.right .date {
   float: left;
   margin-right: 10px;
+  padding-right: 5px;
   border-right-width: 1px; }
+
+.timeline .node.left .date {
+  float: right;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-left-width: 1px; }
 
 .timeline .date .day, .date .month {
   text-align: center; }
@@ -291,6 +293,16 @@ footer .left, footer .right, footer .center {
 .timeline .date .day {
   font-weight: bold;
   font-size: 20px; }
+
+.timeline .node-row .node-content {
+  width: calc(100% - 60px);
+  float: left; }
+
+.timeline .node.rigth {
+  text-align: left; }
+
+.timeline .node.left {
+  text-align: right; }
 
 /* ====== FOLDER =============================================================================== */
 .folder {

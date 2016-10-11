@@ -1,0 +1,42 @@
+﻿@model IEnumerable<IGrouping<int, NodeModel>>
+
+<div class="timeline">
+    @{ 
+        var index = 1;
+    }
+    @foreach (var year in Model)
+    {
+        <div class="year">@year.Key</div>
+
+        foreach (var node in year)
+        {
+            index++;
+            <div class="node @(index % 2 == 0 ? "left" : "right")">
+                <div class="node-folder">
+                    <div class="folder">
+                        <div class="node-row">
+                            <div class="date">
+                                <div class="day">@node.When.Day</div>
+                                <div class="month">@node.When.ToString("MMM")</div>
+                            </div>
+                            <div class="node-content">
+                                @if (String.IsNullOrEmpty(node.Description))
+                                {
+                                    <div class="folder-content">@node.Title</div>
+                                }
+                                else
+                                {
+                                    <div class="folder-heading">@node.Title</div>
+                                    <div class="folder-content">@node.Description</div>
+                                }
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+
+    <div class="clear"></div>
+</div>
