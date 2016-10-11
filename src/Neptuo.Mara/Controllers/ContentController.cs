@@ -1,4 +1,5 @@
-﻿using Neptuo.Mara.Models.Timelining;
+﻿using Neptuo.Mara.Models.Books;
+using Neptuo.Mara.Models.Timelining;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,8 @@ namespace Neptuo.Mara.Controllers
 
         public ActionResult Books()
         {
-            return HttpNotFound();
+            BookDataService dataService = new BookDataService(Request.MapPath(BookDataService.DataUri));
+            return View("Book", dataService.Get());
         }
     }
 }

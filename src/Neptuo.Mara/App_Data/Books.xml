@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Books>
+  <Book>
+    <When>2016-10-10</When>
+    <Name>Pán prstenů: Společenstvo Prstenu</Name>
+    <OriginalName>Lord of The Rings: The Fellowship of the Ring</OriginalName>
+    <Rating>4</Rating>
+  </Book>
+</Books>
