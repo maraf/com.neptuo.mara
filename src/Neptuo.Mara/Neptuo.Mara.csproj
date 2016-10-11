@@ -132,9 +132,31 @@
     <Content Include="App_Data\Books.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\Images\Books\americti-bohove.jpg" />
+    <Content Include="Content\Images\Books\anansiho-chlapci.jpg" />
+    <Content Include="Content\Images\Books\cerne-slunce.jpg" />
+    <Content Include="Content\Images\Books\cerny-dest.jpg" />
+    <Content Include="Content\Images\Books\dobra-znameni.jpg" />
+    <Content Include="Content\Images\Books\enderova-hra.jpg" />
+    <Content Include="Content\Images\Books\jedenadvacet-polibku.jpg" />
+    <Content Include="Content\Images\Books\kniha-hrbitova.jpg" />
+    <Content Include="Content\Images\Books\mezisvet.jpg" />
+    <Content Include="Content\Images\Books\nikdykde.jpg" />
     <Content Include="Content\Images\Books\pan-prstenu-dve-veze.jpg" />
     <Content Include="Content\Images\Books\pan-prstenu-navrat-krale.jpg" />
     <Content Include="Content\Images\Books\pan-prstenu-spolecenstvo-prstenu.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-barva-kouzel.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-caropravnost.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-erik.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-lehke-fantasticno.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-magicky-prazdroj.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-mort.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-pyramidy.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-sekac.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-soudne-sestry.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-straze-straze.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemplocha-pohyblive-obrazky.jpg" />
+    <Content Include="Content\Images\Books\zkazky-z-planety-zeme.jpg" />
     <Content Include="Views\Content\Book.cshtml" />
     <Resource Include="Content\Images\Background.png" />
     <Content Include="App_Data\Timeline.xml">
