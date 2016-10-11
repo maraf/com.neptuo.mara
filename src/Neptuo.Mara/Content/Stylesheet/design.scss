@@ -155,12 +155,12 @@ body {
 }
 
 .my-name .content {
+    margin: 30px 0 0 20px;
     font-family: "Gabriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     color: white;
-    margin: 20px 0 0 20px;
+    line-height: 1;
 }
-
 
 .body {
     margin-top: 100px;
@@ -192,7 +192,7 @@ p.social {
 /* ====== FOOTER =============================================================================== */
 
 footer {
-    padding-top: 10px;
+    padding: 10px 0;
     background: url('Images/FootBackground.png') repeat-x left top;
 }
 
