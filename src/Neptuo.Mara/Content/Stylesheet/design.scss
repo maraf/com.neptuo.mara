@@ -356,16 +356,25 @@ footer .left, footer .right, footer .center {
         font-weight: normal;
         line-height: 1.5;
         text-align: center;
+        
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .folder .folder-heading .original-name {
+        display: block;
         font-style: italic;
-    }
 
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     /*.rating .fa-star {
         color: #FFD76E;
     }*/
-
     .folder .date {
         color: #999;
         font-style: italic;

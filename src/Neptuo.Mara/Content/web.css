@@ -334,9 +334,18 @@ footer .left, footer .right, footer .center {
     font-size: 18px;
     font-weight: normal;
     line-height: 1.5;
-    text-align: center; }
+    text-align: center;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
   .books .folder .folder-heading .original-name {
-    font-style: italic; }
+    display: block;
+    font-style: italic;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
   .books .folder .date {
     color: #999;
     font-style: italic; }

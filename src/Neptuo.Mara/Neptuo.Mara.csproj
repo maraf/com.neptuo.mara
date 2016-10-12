@@ -155,7 +155,7 @@
     <Content Include="Content\Images\Books\uzasna-zemeplocha-sekac.jpg" />
     <Content Include="Content\Images\Books\uzasna-zemeplocha-soudne-sestry.jpg" />
     <Content Include="Content\Images\Books\uzasna-zemeplocha-straze-straze.jpg" />
-    <Content Include="Content\Images\Books\uzasna-zemplocha-pohyblive-obrazky.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-pohyblive-obrazky.jpg" />
     <Content Include="Content\Images\Books\zkazky-z-planety-zeme.jpg" />
     <Content Include="Views\Content\Book.cshtml" />
     <Resource Include="Content\Images\Background.png" />

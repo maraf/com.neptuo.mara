@@ -12,13 +12,13 @@
 }
 
 <div class="folder preface">
-    <div class="col-md-10">
+    <div class="col-md-10 col-sm-9 col-xs-8">
         <h2 class="folder-heading">Preface</h2>
         <p>
             A few years back, when I read through Lord of The Rings trilogy, my passion for sci-fi and fantasy books started.
         </p>
         <p>
-            Since then I read 3 to 5 books a year.
+            Since then I read 5 to 10 books a year.
             Here is a list of those I have read with my (personal and only personal) rating.
         </p>
         <p>
@@ -28,7 +28,7 @@
             The date included with the book is a date when I have read it and all books are sorted chronologically.
         </p>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 col-sm-3 col-xs-4">
         <h2 class="folder-heading">Stats</h2>
         <table>
             <tr>
@@ -50,7 +50,7 @@
 <div class="books">
     @foreach (var book in Model)
     {
-        <article class="col-md-4">
+        <article class="col-md-4 col-sm-6">
             <div class="folder">
                 @if (!String.IsNullOrEmpty(book.Image))
                 {
@@ -60,12 +60,12 @@
                 }
 
                 <h2 class="folder-heading">
-                    <strong>@book.Name</strong>
-                    <div class="original-name">@book.OriginalName</div>
+                    <strong title="@book.Name">@book.Name</strong>
+                    <span class="original-name" title="@book.OriginalName">@book.OriginalName</span>
                 </h2>
                 <div class="folder-content">
                     <div class="left date">@book.When.ToString("yyyy-MM-dd")</div>
-                    <div class="right rating">
+                    <div class="right rating" title="@book.Rating of 5">
                         @Rating(book.Rating)
                     </div>
                     <div class="clear"></div>
