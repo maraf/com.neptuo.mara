@@ -1,7 +1,31 @@
 ﻿@model IEnumerable<IGrouping<int, NodeModel>>
 
+@section IntroHeading { My name is Marek Fišera }
+@section IntroContent
+{
+    <p>
+        I am a freelancer (currently available for hire). <br />
+        My specialization is Javascript and C#. <br />
+        My passion is architecture, naming and structuring code.
+    </p>
+    <p class="social">
+        <a target="_blank" href="https://github.com/maraf">
+            <span class="fa fa-github"></span>
+            source codes
+        </a>
+        <a target="_blank" href="https://twitter.com/maraf">
+            <span class="fa fa-twitter"></span>
+            thoughts and shares
+        </a>
+        <a href="#my-email" class="my-email">
+            <span class="fa fa-envelope-o"></span>
+            email
+        </a>
+    </p>
+}
+
 <div class="timeline">
-    @{ 
+    @{
         var index = 1;
     }
     @foreach (var year in Model)

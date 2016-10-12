@@ -46,30 +46,15 @@
     </nav>
 
     <div class="body">
-        <div class="intro">
-            <div class="container intro-content">
-                <h1>My name is Marek Fišera</h1>
-                <p>
-                    I am a freelancer (currently available for hire). <br />
-                    My specialization is Javascript and C#. <br />
-                    My passion is architecture, naming and structuring code.
-                </p>
-                <p class="social">
-                    <a target="_blank" href="https://github.com/maraf">
-                        <span class="fa fa-github"></span>
-                        source codes
-                    </a>
-                    <a target="_blank" href="https://twitter.com/maraf">
-                        <span class="fa fa-twitter"></span>
-                        thoughts and shares
-                    </a>
-                    <a href="#my-email" class="my-email">
-                        <span class="fa fa-envelope-o"></span>
-                        email
-                    </a>
-                </p>
+        @if (IsSectionDefined("IntroHeading") || IsSectionDefined("IntroContent"))
+        {
+            <div class="intro">
+                <div class="container intro-content">
+                    <h1>@RenderSection("IntroHeading")</h1>
+                    @RenderSection("IntroContent")
+                </div>
             </div>
-        </div>
+        }
         <div class="container">
             @RenderBody()
         </div>
