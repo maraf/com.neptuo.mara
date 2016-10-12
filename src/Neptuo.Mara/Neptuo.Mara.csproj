@@ -117,8 +117,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Books\AuthorModel.cs" />
     <Compile Include="Models\Books\BookDataService.cs" />
     <Compile Include="Models\Books\BookList.cs" />
+    <Compile Include="Models\Books\BookListViewModel.cs" />
     <Compile Include="Models\Books\BookModel.cs" />
     <Compile Include="Models\HtmlFormatter.cs" />
     <Compile Include="Models\HttpRequestBaseExtensions.cs" />

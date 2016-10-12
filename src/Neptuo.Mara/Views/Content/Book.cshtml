@@ -1,54 +1,69 @@
-﻿@model IEnumerable<BookModel>
+﻿@model BookListViewModel
 @helper Rating(int rating)
 {
-    for (int i = 0; i < 5 - rating; i++)
-    {
+for (int i = 0; i < 5 - rating; i++)
+{
         <span class="fa fa-star-o"></span>
-    }
-    for (int i = 0; i < rating; i++)
-    {
+}
+for (int i = 0; i < rating; i++)
+{
         <span class="fa fa-star"></span>
-    }
+}
 }
 
 <div class="folder preface">
-    <div class="col-md-10 col-sm-9 col-xs-8">
-        <h2 class="folder-heading">Preface</h2>
-        <p>
-            A few years back, when I read through Lord of The Rings trilogy, my passion for sci-fi and fantasy books started.
-        </p>
-        <p>
-            Since then I read 5 to 10 books a year.
-            Here is a list of those I have read with my (personal and only personal) rating.
-        </p>
-        <p>
-            Most of them I have read in Czech, so primary names are in Czech, and so preview images, and secondary names are original.
-        </p>
-        <p>
-            The date included with the book is a date when I have read it and all books are sorted chronologically.
-        </p>
+    <div class="col-md-8 col-sm-6 col-xs-12">
+        <div class="preface-column">
+            <h2 class="folder-heading">Preface</h2>
+            <p>
+                A few years back, when I read through Lord of The Rings trilogy, my passion for sci-fi and fantasy books started.
+            </p>
+            <p>
+                Since then I read 5 to 10 books a year.
+                Here is a list of those I have read with my (personal and only personal) rating.
+            </p>
+            <p>
+                Most of them I have read in Czech, so primary names are in Czech, and so preview images, and secondary names are original.
+            </p>
+            <p>
+                The date included with the book is a date when I have read it and all books are sorted chronologically.
+            </p>
+        </div>
+    </div>
+    <div class="col-md-2 col-sm-3 col-xs-8">
+        <div class="preface-column">
+            <h2 class="folder-heading">Authors</h2>
+            @foreach (var author in Model.Authors)
+            {
+                <div class="author">
+                    @author.FullName
+                </div>
+            }
+        </div>
     </div>
     <div class="col-md-2 col-sm-3 col-xs-4">
-        <h2 class="folder-heading">Stats</h2>
-        <table>
-            <tr>
-                <td>Total</td>
-                <td>@Model.Count()</td>
-            </tr>
-            @foreach (var year in Model.GroupBy(b => b.When.Year))
-            {
+        <div class="preface-column preface-column-last">
+            <h2 class="folder-heading">Stats</h2>
+            <table>
                 <tr>
-                    <td>@year.Key</td>
-                    <td>@year.Count()</td>
+                    <td>Total</td>
+                    <td>@Model.Books.Count()</td>
                 </tr>
-            }
-        </table>
+                @foreach (var year in Model.Books.GroupBy(b => b.When.Year))
+                {
+                    <tr>
+                        <td>@year.Key</td>
+                        <td>@year.Count()</td>
+                    </tr>
+                }
+            </table>
+        </div>
     </div>
     <div class="clear"></div>
 </div>
 
 <div class="books">
-    @foreach (var book in Model)
+    @foreach (var book in Model.Books)
     {
         <article class="col-md-4 col-sm-6">
             <div class="folder">

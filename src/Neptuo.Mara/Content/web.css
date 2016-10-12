@@ -307,12 +307,12 @@ footer .left, footer .right, footer .center {
 /* ====== BOOKS ================================================================================ */
 .preface {
   text-align: justify; }
-
-.preface table {
-  width: 100%; }
-
-.preface .col-md-10 {
-  padding-left: 0; }
+  .preface table {
+    width: 100%; }
+  .preface .preface-column {
+    margin-right: 10px; }
+  .preface .preface-column-last {
+    margin-right: 0; }
 
 .books {
   /*.rating .fa-star {

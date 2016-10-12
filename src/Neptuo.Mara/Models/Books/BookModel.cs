@@ -19,5 +19,7 @@ namespace Neptuo.Mara.Models.Books
         /// Stars: 5 (max) - 0 (min).
         /// </summary>
         public int Rating { get; set; }
+
+        public string Author { get; set; }
     }
 }
