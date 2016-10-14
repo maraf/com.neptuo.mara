@@ -67,6 +67,9 @@ body {
   color: #333;
   background: #E8E8E8; }
 
+.container {
+  max-width: 970px; }
+
 /* ====== TOP MENU & INTRO ===================================================================== */
 .navbar-toggle {
   font-size: 36px;
@@ -170,7 +173,7 @@ body {
   text-align: left; }
 
 /* ====== MY NAME ============================================================================== */
-.my-name img, .my-name .content {
+.my-name, .my-name img, .my-name .content {
   float: left; }
 
 .my-name img {
@@ -433,6 +436,26 @@ footer .left, footer .right, footer .center {
 input.folder {
   width: calc(100% - 20px);
   padding-top: 15px; }
+
+/* ====== RESPONSIVENESS ======================================================================= */
+@media (max-width: 735px) {
+  code {
+    white-space: normal; }
+  .navbar-toggle {
+    display: block; }
+  .navbar .container {
+    padding: 0; }
+  .navbar .my-name, .navbar ul.right, .navbar ul.right li {
+    float: none; }
+  .navbar .my-name, .navbar ul li {
+    float: none;
+    display: none; }
+  .navbar ul li.active, .navbar.navbar-expanded .my-name, .navbar.navbar-expanded ul li {
+    display: block; }
+  .navbar .my-name {
+    padding-left: 15px; }
+  .navbar ul.right li a {
+    margin: 0; } }
 
 /*@import "Stylesheet/box";*/
 /*@import "Stylesheet/ie";*/

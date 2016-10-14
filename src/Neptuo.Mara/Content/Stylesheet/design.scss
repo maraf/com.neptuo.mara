@@ -15,6 +15,10 @@ body {
     background: #E8E8E8;
 }
 
+.container {
+    max-width: 970px;
+}
+
 /* ====== TOP MENU & INTRO ===================================================================== */
 
 .navbar-toggle {
@@ -142,7 +146,7 @@ body {
 
 /* ====== MY NAME ============================================================================== */
 
-.my-name img, .my-name .content {
+.my-name, .my-name img, .my-name .content {
     float: left;
 }
 

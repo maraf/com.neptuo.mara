@@ -33,9 +33,8 @@
 
             <div class="my-name">
                 <img src="~/Content/Images/mnau2_sq.jpg" alt="My avatar" />
-                <div class="content">
-                    Marek Fišera
-                </div>
+                <div class="content">Marek Fišera</div>
+                <div class="clear"></div>
             </div>
 
             <ul class="right">
@@ -77,6 +76,14 @@
     </footer>
 
     <script>
+
+        var navbarToggle = document.querySelector("button.navbar-toggle");
+        if (navbarToggle != null) {
+            navbarToggle.addEventListener('click', function (e) {
+                var navbar = document.querySelector("nav");
+                navbar.classList.toggle('navbar-expanded');
+            });
+        }
 
         var myEmail = document.querySelector(".my-email");
         if (myEmail != null) {

@@ -1,0 +1,36 @@
+﻿/* ====== RESPONSIVENESS ======================================================================= */
+
+@media (max-width: 735px) {
+    code {
+        white-space: normal;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar  .container {
+        padding: 0;
+    }
+
+    .navbar .my-name, .navbar ul.right, .navbar ul.right li {
+        float: none;
+    }
+
+    .navbar .my-name, .navbar ul li {
+        float: none;
+        display: none;
+    }
+
+    .navbar ul li.active, .navbar.navbar-expanded .my-name, .navbar.navbar-expanded ul li {
+        display: block;
+    }
+
+    .navbar .my-name {
+        padding-left: 15px;
+    }
+
+    .navbar ul.right li a {
+        margin: 0;
+    }
+}

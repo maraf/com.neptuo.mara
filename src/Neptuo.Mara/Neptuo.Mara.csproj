@@ -175,6 +175,7 @@
     <Content Include="Content\Images\mnau2_sq.jpg" />
     <Content Include="Content\Images\TimelineBackground.png" />
     <None Include="Content\Stylesheet\common.scss" />
+    <Content Include="Content\Stylesheet\responsiveness.scss" />
     <None Include="Content\Stylesheet\design.scss" />
     <None Include="Content\Stylesheet\folder.scss" />
     <Content Include="Content\web.css">
