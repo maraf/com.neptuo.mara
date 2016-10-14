@@ -152,7 +152,7 @@ body {
   padding: 40px 0;
   background: #E8E8E8 url("Images/BackgroundSingle.png") repeat 0 bottom; }
 
-.intro .intro-content {
+.body .intro .intro-content {
   padding: 0 30px; }
 
 .intro h1 {
@@ -438,6 +438,11 @@ input.folder {
   padding-top: 15px; }
 
 /* ====== RESPONSIVENESS ======================================================================= */
+@media (max-width: 590px) {
+  .social a, .social a.my-email {
+    display: block;
+    float: none; } }
+
 @media (max-width: 735px) {
   code {
     white-space: normal; }
@@ -455,7 +460,53 @@ input.folder {
   .navbar .my-name {
     padding-left: 15px; }
   .navbar ul.right li a {
-    margin: 0; } }
+    margin: 0; }
+  .intro {
+    padding: 5px 0; }
+  .intro h1 {
+    font-size: 56px; }
+  .intro p {
+    font-size: 22px; }
+  .body .container {
+    padding: 0; }
+  .folder {
+    margin: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none; }
+  footer {
+    background: none; }
+  .timeline {
+    margin: 0;
+    padding-top: 0;
+    background: none; }
+  .timeline .year {
+    width: auto;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    background: transparent;
+    border-bottom: 1px solid #c0c0c0; }
+  .timeline .node {
+    width: auto;
+    margin-top: 0;
+    float: none; }
+  .timeline .node.right .node-folder {
+    padding-left: 0;
+    margin-right: 0; }
+  .timeline .node.left .node-folder {
+    padding-right: 0;
+    margin-left: 0; }
+  .timeline .node.left {
+    text-align: left; }
+  .timeline .node.left .date {
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 10px;
+    padding-right: 5px;
+    border-right-width: 1px;
+    border-left-width: 0; } }
 
 /*@import "Stylesheet/box";*/
 /*@import "Stylesheet/ie";*/
