@@ -21,5 +21,10 @@ namespace Neptuo.Mara.Controllers
             BookDataService dataService = new BookDataService(Request.MapPath(BookDataService.DataUri));
             return View("Book", new BookListViewModel(dataService.Get(), dataService.GetAuthors()));
         }
+
+        public ActionResult NotFound()
+        {
+            return View();
+        }
     }
 }

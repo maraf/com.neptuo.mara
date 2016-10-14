@@ -160,6 +160,7 @@
     <Content Include="Content\Images\Books\uzasna-zemeplocha-pohyblive-obrazky.jpg" />
     <Content Include="Content\Images\Books\zkazky-z-planety-zeme.jpg" />
     <Content Include="Views\Content\Book.cshtml" />
+    <Content Include="Views\Content\NotFound.cshtml" />
     <Resource Include="Content\Images\Background.png" />
     <Content Include="App_Data\Timeline.xml">
       <SubType>Designer</SubType>

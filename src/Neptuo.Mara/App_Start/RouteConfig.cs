@@ -18,10 +18,23 @@ namespace Neptuo.Mara
                 url: "",
                 defaults: new { controller = "Content", action = "Home", id = UrlParameter.Optional }
             );
+
             routes.MapRoute(
                 name: "Books",
                 url: "book",
                 defaults: new { controller = "Content", action = "Books", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
+                name: "404",
+                url: "404.html",
+                defaults: new { controller = "Content", action = "NotFound" }
+            );
+
+            routes.MapRoute(
+                name: "ContentFallBack",
+                url: "{*path}",
+                defaults: new { controller = "Content", action = "NotFound" }
             );
         }
     }
