@@ -12,7 +12,7 @@ for (int i = 0; i < rating; i++)
 }
 
 <div class="folder preface">
-    <div class="col-md-8 col-sm-6 col-xs-12">
+    <div class="col-md-7 col-sm-6 col-xs-12">
         <div class="preface-column">
             <h2 class="folder-heading">Preface</h2>
             <p>
@@ -30,15 +30,18 @@ for (int i = 0; i < rating; i++)
             </p>
         </div>
     </div>
-    <div class="col-md-2 col-sm-3 col-xs-8">
+    <div class="col-md-3 col-sm-3 col-xs-8">
         <div class="preface-column">
             <h2 class="folder-heading">Authors</h2>
-            @foreach (var author in Model.Authors)
-            {
-                <div class="author">
-                    @author.FullName
-                </div>
-            }
+            <table>
+                @foreach (var author in Model.Authors)
+                {
+                    <tr>
+                        <td>@author.FullName</td>
+                        <td>@Model.Books.Where(b => b.Author.Contains(author.FullName)).Count()</td>
+                    </tr>
+                }
+            </table>
         </div>
     </div>
     <div class="col-md-2 col-sm-3 col-xs-4">

@@ -34,7 +34,8 @@ namespace Neptuo.Mara.Models.Books
                 .SelectMany(a => a.Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries))
                 .Distinct()
                 .Select(a => new AuthorModel(a))
-                .OrderBy(a => a.FullName);
+                .OrderBy(a => a.FullName.Split(' ').Last())
+                .ThenBy(a => a.FullName);
         }
     }
 }
