@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Neptuo.Mara.Navigation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,18 +14,9 @@ namespace Neptuo.Mara
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                name: "Home",
-                url: "",
-                defaults: new { controller = "Content", action = "Home", id = UrlParameter.Optional }
-            );
-
-            routes.MapRoute(
-                name: "Books",
-                url: "book",
-                defaults: new { controller = "Content", action = "Books", id = UrlParameter.Optional }
-            );
-
+            routes.MapModel<HomeRoute>();
+            routes.MapModel<BookRoute>();
+            
             routes.MapRoute(
                 name: "404",
                 url: "404.html",

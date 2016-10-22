@@ -1,5 +1,6 @@
-﻿@helper MenuItem(string text, string subtext, string icon, string url, bool isExactUrlMatched = false)
+﻿@helper MenuItem(string text, string subtext, string icon, object route, bool isExactUrlMatched = false)
 {
+    var url = Url.ModelUrl(route);
     <li class="@Request.ActiveCssClass(url, isExactUrlMatched)">
         <a href="@Request.ResolveUrl(url)">
             <div class="maintext">
@@ -38,8 +39,8 @@
             </div>
 
             <ul class="right">
-                @MenuItem("Me", "My developer's life", "graduation-cap", "~/", true)
-                @MenuItem("Books", "Those I liked or don't", "book", "~/book")
+                @MenuItem("Me", "My developer's life", "graduation-cap", new HomeRoute(), true)
+                @MenuItem("Books", "Those I liked or don't", "book", new BookRoute())
             </ul>
         </div>
     </nav>
