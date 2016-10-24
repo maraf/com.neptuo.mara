@@ -4,7 +4,7 @@
     <When>2016-10-10</When>
     <Title>Starting with Timeline web design</Title>
     <Description>
-      Well, the initial tought was to display all my work, projects and life milestones and a stream of events.
+      Well, the initial tought was to display all my work, projects and life milestones as a stream of events.
       So I have started with this Timeline.
     </Description>
   </Node>
@@ -15,8 +15,80 @@
       It is a technology blog with based on experiences.
     </Description>
   </Node>
-  
-  
+  <Node>
+    <When>2014-06-05</When>
+    <Description Language="Markdown">
+      I have finished my Master's degree at CTU in Prague, Open Informatics, Software Engineering.
+      My master's thesis was [Template Engine](http://www.neptuo.com/project/cms/templateengine).
+    </Description>
+  </Node>
+  <Node>
+    <When>2014-12-01</When>
+    <Description Language="Markdown">
+      I have created an account on [GitHub.com](https://github.com/maraf) and moved all my open sources from private SVN to public GIT.
+    </Description>
+  </Node>
+  <Node>
+    <When>2013-06-02</When>
+    <Description Language="Markdown">
+      After an awsome semester with guys from Seznam.cz I have finished my [Pisqorks](https://github.com/maraf/Pisqorks) project for [A0M33KAJ](http://opensource.seznam.cz/CVUT/A0M33KAJ/).
+      It is a full javascript and web sockets tic-tac-toe game.
+    </Description>
+  </Node>
+  <Node>
+    <When>2012-08-09</When>
+    <Description Language="Markdown">
+      I have registered a domain [neptuo.com](www.neptuo.com). From this day it is my internet home.
+    </Description>
+  </Node>
+  <Node>
+    <When>2011-06-24</When>
+    <Description Language="Markdown">
+      I have finished my Bachelor's degree at CTU in Prague, Faculty of Electronics, Software Engineering.
+      My bachelor's thesis was [Web Operating System](http://www.neptuo.com/cms/webdesk).
+      ---------------------------------------
+      It is a desktop-like web application, implemented in Java EE and [GWT](http://www.gwtproject.org), running on Glassfish.
+      I have implemented users management and remote file system.
+      ---------------------------------------
+      However I have never continued on development after definding the thesis, because I have switched to the .NET environment.
+    </Description>
+  </Node>
+  <Node>
+    <When>2011-03-30</When>
+    <Description Language="Markdown">
+      I have started on my first open-source project [WindowsDock](http://www.neptuo.com/project/desktop/windowsdock).
+      I missed it in Windows, had much of spare time and so, decided to code it, using WPF.
+    </Description>
+  </Node>
+  <Node>
+    <When>2011-03-01</When>
+    <Description Language="Markdown">
+      My first touches in .NET and Windows Forms at CTU. This was a turning point in my dev life.
+      I had many experiences with PHP and learned a lot of theory about Enterprise Java.
+      But .NET, from this day, I used it for nearly everything (with HTML, CSS and Javascript)...
+    </Description>
+  </Node>
+  <Node>
+    <When>2008-01-01</When>
+    <Description Language="PlainText">
+      Started as a freelancer coding HTML, CSS and Javascript.
+    </Description>
+  </Node>
+  <Node>
+    <When>2008-03-10</When>
+    <Description Language="Markdown">
+      After implementing some simple CMS based on application requirements, I tought that something more reusable is needed
+      and started with [is4wfw](http://www.neptuo.com/cms/is4wfw).
+    </Description>
+  </Node>
+  <Node>
+    <When>2007-10-01</When>
+    <Description Language="PlainText">
+      My first day at CTU in Prague, Faculty of Electronics, Software Engineering.
+    </Description>
+  </Node>
+
+
   <!--<Node>
     <When>2016-08-10</When>
     <Description Language="Markdown">
