@@ -11,7 +11,7 @@ for (int i = 0; i < rating; i++)
 }
 }
 
-<div class="folder preface">
+@*<div class="folder preface">
     <div class="col-md-7 col-sm-6 col-xs-12">
         <div class="preface-column">
             <h2 class="folder-heading">Preface</h2>
@@ -63,9 +63,27 @@ for (int i = 0; i < rating; i++)
         </div>
     </div>
     <div class="clear"></div>
-</div>
+</div>*@
 
 <div class="books">
+    <div class="col-md-8">
+        <div class="folder">
+            <h2 class="folder-heading">Preface</h2>
+            <p>
+                A few years back, when I read through Lord of The Rings trilogy, my passion for sci-fi and fantasy books started.
+            </p>
+            <p>
+                Since then I read 5 to 10 books a year.
+                Here is a list of those I have read with my (personal and only personal) rating.
+            </p>
+            <p>
+                Most of them I have read in Czech, so primary names are in Czech, and so preview images, and secondary names are original.
+            </p>
+            <p>
+                The date included with the book is a date when I have read it and all books are sorted chronologically.
+            </p>
+        </div>
+    </div>
     @foreach (var book in Model.Books)
     {
         <article class="col-md-4 col-sm-6">
