@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2016-10-28</When>
+    <Name>Analfabetka</Name>
+    <OriginalName>Analfabeten som kunde räkna</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/anlfabetka.jpg</Image>
+    <Author>Jonas Jonasson</Author>
+  </Book>
+  <Book>
     <When>2016-10-03</When>
     <Name>Oceán na konci uličky</Name>
     <OriginalName>The Ocean at the End of the Lane</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/ocean-na-konci-ulicky.jpg</Image>
-	<Author>Neil Gaiman</Author>
+    <Author>Neil Gaiman</Author>
   </Book>
   <Book>
     <When>2016-10-03</When>
