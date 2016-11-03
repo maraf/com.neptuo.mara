@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2016-10-26</When>
+    <Title>My name at Microsoft.com for the first time</Title>
+    <Description Language="Markdown">
+      In the every-week .NET community highlights, my post about [creating links in MVC](http://www.neptuo.com/blog/2016/10/24/mvc-route-values) was mentioned.
+    </Description>
+  </Node>
+  <Node>
     <When>2016-10-10</When>
     <Title>Starting with Timeline web design</Title>
     <Description>

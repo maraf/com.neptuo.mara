@@ -141,19 +141,33 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Content\Images\Books\americti-bohove.jpg" />
+    <Content Include="Content\Images\Books\analfabetka.jpg" />
     <Content Include="Content\Images\Books\anansiho-chlapci.jpg" />
     <Content Include="Content\Images\Books\cerne-slunce.jpg" />
     <Content Include="Content\Images\Books\cerny-dest.jpg" />
+    <Content Include="Content\Images\Books\dlouha-valka.png" />
+    <Content Include="Content\Images\Books\dlouha-zeme.jpg" />
     <Content Include="Content\Images\Books\dobra-znameni.jpg" />
     <Content Include="Content\Images\Books\enderova-hra.jpg" />
     <Content Include="Content\Images\Books\jedenadvacet-polibku.jpg" />
     <Content Include="Content\Images\Books\kniha-hrbitova.jpg" />
+    <Content Include="Content\Images\Books\kour-a-zrcadla.jpg" />
+    <Content Include="Content\Images\Books\kucharka-starenky-oggove.jpg" />
+    <Content Include="Content\Images\Books\merde-rok-v-parizi.jpg" />
+    <Content Include="Content\Images\Books\mesic-nad-soho.jpg" />
     <Content Include="Content\Images\Books\mezisvet.jpg" />
+    <Content Include="Content\Images\Books\mluvci-za-mrtve.jpg" />
     <Content Include="Content\Images\Books\nikdykde.jpg" />
+    <Content Include="Content\Images\Books\ocean-na-konci-ulicky.jpg" />
     <Content Include="Content\Images\Books\pan-prstenu-dve-veze.jpg" />
     <Content Include="Content\Images\Books\pan-prstenu-navrat-krale.jpg" />
     <Content Include="Content\Images\Books\pan-prstenu-spolecenstvo-prstenu.jpg" />
+    <Content Include="Content\Images\Books\pribehy-sherlocka-holmese.jpg" />
+    <Content Include="Content\Images\Books\stolety-starik-ktery-vylezl-z-okna-a-zmizel.jpg" />
+    <Content Include="Content\Images\Books\tracyho-tygr.jpg" />
+    <Content Include="Content\Images\Books\tri-muzi-ve-clunu-o-psu-nemluve.jpg" />
     <Content Include="Content\Images\Books\uzasna-zemeplocha-barva-kouzel.jpg" />
+    <Content Include="Content\Images\Books\uzasna-zemeplocha-carodejky-na-cestach.jpg" />
     <Content Include="Content\Images\Books\uzasna-zemeplocha-caropravnost.jpg" />
     <Content Include="Content\Images\Books\uzasna-zemeplocha-erik.jpg" />
     <Content Include="Content\Images\Books\uzasna-zemeplocha-lehke-fantasticno.jpg" />
