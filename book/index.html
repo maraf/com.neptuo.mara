@@ -11,7 +11,7 @@
     <link href="/Content/font-awesome.min.css" rel="stylesheet" />
     <link href="/Content/web.min.css" rel="stylesheet" />
 </head>
-<body>
+<body itemscope itemtype="http://data-vocabulary.org/Person">
 
     <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
@@ -20,8 +20,8 @@
             </button>
 
             <div class="my-name">
-                <img src="/Content/Images/mnau2_sq.jpg" alt="My avatar" />
-                <div class="content">Marek Fišera</div>
+                <img src="/Content/Images/mnau2_sq.jpg" alt="My avatar" itemprop="photo" />
+                <h1 class="content" itemprop="name">Marek Fišera</h1>
                 <div class="clear"></div>
             </div>
 
@@ -1068,6 +1068,17 @@
 
         ga('create', 'UA-12031460-9', 'auto');
         ga('send', 'pageview');
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Marek Fišera",
+            "image": "~/Content/Images/mnau2_sq.jpg",
+            "jobTitle": "I am a freelancer. My specialization is Javascript and C#. My passion is architecture, naming and structuring code.",
+            "address": "Prague, Czech Republic",
+            "affiliation": "http://www.seznam.cz/"
+        }
     </script>
 </body>
 </html>
