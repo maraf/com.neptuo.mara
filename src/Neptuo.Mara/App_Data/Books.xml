@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2016-11-27</When>
+    <Name>Řeky londýna</Name>
+    <OriginalName>Rivers of London</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/reky-londyna.jpg</Image>
+    <Author>Ben Aaronovitch</Author>
+  </Book>
+  <Book>
     <When>2016-10-28</When>
     <Name>Analfabetka</Name>
     <OriginalName>Analfabeten som kunde räkna</OriginalName>
