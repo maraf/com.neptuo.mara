@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
-    <When>2016-11-27</When>
-    <Name>Řeky londýna</Name>
-    <OriginalName>Rivers of London</OriginalName>
-    <Rating>4</Rating>
-    <Image>~/Content/Images/Books/reky-londyna.jpg</Image>
-    <Author>Ben Aaronovitch</Author>
+    <When>2017-01-04</When>
+    <Name>Touha po Měsíci</Name>
+    <OriginalName>Mondsüchtig: Wernher von Braun und die Geburt der Raumfahrt aus dem Geist der Barbarei</OriginalName>
+    <Rating>3</Rating>
+    <Image>~/Content/Images/Books/touha-po-mesici.png</Image>
+    <Author>Rainer Eisfeld</Author>
+  </Book>
+  <Book>
+    <When>2016-11-15</When>
+    <Name>Baader Meinhof komplex</Name>
+    <OriginalName>Der Baader Meinhof Komplex</OriginalName>
+    <Rating>2</Rating>
+    <Image>~/Content/Images/Books/baader-meinhof-komplex.jpg</Image>
+    <Author>Stefan Aust</Author>
   </Book>
   <Book>
     <When>2016-10-28</When>
