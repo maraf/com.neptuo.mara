@@ -1,12 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2017-02-03</When>
+    <Name>Šepot podzemí</Name>
+    <OriginalName>Whispers Under Ground</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/sepot-podzemi.jpg</Image>
+    <Author>Ben Aaronovitch</Author>
+  </Book>
+  <Book>
     <When>2017-01-04</When>
     <Name>Touha po Měsíci</Name>
     <OriginalName>Mondsüchtig: Wernher von Braun und die Geburt der Raumfahrt aus dem Geist der Barbarei</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/touha-po-mesici.png</Image>
     <Author>Rainer Eisfeld</Author>
+  </Book>
+  <Book>
+    <When>2016-11-27</When>
+    <Name>Řeky londýna</Name>
+    <OriginalName>Rivers of London</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/reky-londyna.jpg</Image>
+    <Author>Ben Aaronovitch</Author>
   </Book>
   <Book>
     <When>2016-11-15</When>

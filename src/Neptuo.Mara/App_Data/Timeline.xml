@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2017-02-03</When>
+    <Title>Diving into the UWP</Title>
+    <Description Language="Markdown">
+      By the end of the last year I have started with some UWP experiments. Now I am heading to a first release of the [Money](https://github.com/maraf/Money).
+    </Description>
+  </Node>
+  <Node>
     <When>2016-10-26</When>
     <Title>My name at Microsoft.com for the first time</Title>
     <Description Language="Markdown">

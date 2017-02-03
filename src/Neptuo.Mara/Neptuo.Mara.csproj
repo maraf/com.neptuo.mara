@@ -143,6 +143,7 @@
     <Content Include="Content\Images\Books\americti-bohove.jpg" />
     <Content Include="Content\Images\Books\analfabetka.jpg" />
     <Content Include="Content\Images\Books\anansiho-chlapci.jpg" />
+    <Content Include="Content\Images\Books\baader-meinhof-komplex.jpg" />
     <Content Include="Content\Images\Books\cerne-slunce.jpg" />
     <Content Include="Content\Images\Books\cerny-dest.jpg" />
     <Content Include="Content\Images\Books\dlouha-valka.png" />
@@ -163,7 +164,10 @@
     <Content Include="Content\Images\Books\pan-prstenu-navrat-krale.jpg" />
     <Content Include="Content\Images\Books\pan-prstenu-spolecenstvo-prstenu.jpg" />
     <Content Include="Content\Images\Books\pribehy-sherlocka-holmese.jpg" />
+    <Content Include="Content\Images\Books\reky-londyna.jpg" />
+    <Content Include="Content\Images\Books\sepot-podzemi.jpg" />
     <Content Include="Content\Images\Books\stolety-starik-ktery-vylezl-z-okna-a-zmizel.jpg" />
+    <Content Include="Content\Images\Books\touha-po-mesici.png" />
     <Content Include="Content\Images\Books\tracyho-tygr.jpg" />
     <Content Include="Content\Images\Books\tri-muzi-ve-clunu-o-psu-nemluve.jpg" />
     <Content Include="Content\Images\Books\uzasna-zemeplocha-barva-kouzel.jpg" />
