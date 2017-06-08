@@ -1,6 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2017-06-06</When>
+    <Name>Převážně neškodná</Name>
+    <OriginalName>Mostly Harmless</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/stoparuv-pruvodce-po-galaxii.jpg</Image>
+    <Author>Douglas Adams</Author>
+  </Book>
+  <Book>
+    <When>2017-06-06</When>
+    <Name>Sbohem, a díky za ryby</Name>
+    <OriginalName>So Long, and Thanks for All the Fish</OriginalName>
+    <Rating>5</Rating>
+    <Image>~/Content/Images/Books/stoparuv-pruvodce-po-galaxii.jpg</Image>
+    <Author>Douglas Adams</Author>
+  </Book>
+  <Book>
+    <When>2017-06-06</When>
+    <Name>Život, vesmír a vůbec</Name>
+    <OriginalName>Life, the Universe and Everything</OriginalName>
+    <Rating>3</Rating>
+    <Image>~/Content/Images/Books/stoparuv-pruvodce-po-galaxii.jpg</Image>
+    <Author>Douglas Adams</Author>
+  </Book>
+  <Book>
+    <When>2017-06-06</When>
+    <Name>Restaurant na konci vesmíru</Name>
+    <OriginalName>The Restaurant at the End of the Universe</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/stoparuv-pruvodce-po-galaxii.jpg</Image>
+    <Author>Douglas Adams</Author>
+  </Book>
+  <Book>
+    <When>2017-06-06</When>
+    <Name>Stopařův průvodce po Galaxii</Name>
+    <OriginalName>The Hitchhiker's Guide to the Galaxy</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/stoparuv-pruvodce-po-galaxii.jpg</Image>
+    <Author>Douglas Adams</Author>
+  </Book>
+  <Book>
     <When>2017-02-03</When>
     <Name>Šepot podzemí</Name>
     <OriginalName>Whispers Under Ground</OriginalName>
