@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2017-03-29</When>
+    <Title>Productivity VS extensions</Title>
+    <Description Language="Markdown">
+      In the meantime we are refactoring Productivity features for VS to support VS2017 and spliting them into pieces.
+      First one is a [Line Duplication](https://marketplace.visualstudio.com/items?itemName=Mara79.NeptuoProductivityLineDuplication).
+    </Description>
+  </Node>
+  <Node>
     <When>2017-02-03</When>
     <Title>Diving into the UWP</Title>
     <Description Language="Markdown">
