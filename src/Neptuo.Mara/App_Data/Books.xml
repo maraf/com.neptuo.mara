@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2017-07-24</When>
+    <Name>Harry Potter a Kámen Mudrců</Name>
+    <OriginalName>Harry Potter and the Philosopher's Stone</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/kamen-mudrcu.jpg</Image>
+    <Author>J. K. Rowlingová</Author>
+  </Book>
+  <Book>
     <When>2017-06-06</When>
     <Name>Převážně neškodná</Name>
     <OriginalName>Mostly Harmless</OriginalName>
