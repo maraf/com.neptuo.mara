@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -140,6 +141,7 @@
     <Content Include="App_Data\Books.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\Images\Books\tajemna-komnata.jpg" />
     <Content Include="Content\Images\Books\americti-bohove.jpg" />
     <Content Include="Content\Images\Books\analfabetka.jpg" />
     <Content Include="Content\Images\Books\anansiho-chlapci.jpg" />
