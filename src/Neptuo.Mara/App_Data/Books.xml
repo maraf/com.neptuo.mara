@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2017-10-05</When>
+    <Name>Harry Potter a Vězeň z Azkabanu</Name>
+    <OriginalName>Harry Potter and the Prisoner of Azcaban</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/vezen-z-azkabanu.jpg</Image>
+    <Author>J. K. Rowlingová</Author>
+  </Book>
+  <Book>
     <When>2017-08-16</When>
     <Name>Harry Potter a Tajemná Komnata</Name>
     <OriginalName>Harry Potter and the Chamber of Secrets</OriginalName>
