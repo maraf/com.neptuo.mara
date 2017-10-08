@@ -9,12 +9,12 @@ $delay = 3000
 Write-Host "Running IIS Express from '$($sitePath)' at '$($port)'."
 $iis = Start-Process "C:\Program Files (x86)\IIS Express\iisexpress.exe" -NoNewWindow -ArgumentList "/path:$($sitePath) /port:$($port)"
 
-Write-Host "Waiting $($delay)."
+Write-Host "Waiting $($delay)ms."
 Start-Sleep -Milliseconds $delay
 
 # Crawl site.
 Write-Host "Running StaticSiteCrawler."
-.\Tools\StaticSiteCrawler.exe http://localhost:$($port)/ $outputPath /
+.\Tools\StaticSiteCrawler.exe http://localhost:$($port)/ $outputPath
 
 # Copy assets.
 If (Test-Path "$($sitePath)\Content\Images") 
