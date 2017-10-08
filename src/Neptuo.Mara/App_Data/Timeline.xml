@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2017-10-07</When>
+    <Title>Productivity VS extensions - vol. 2</Title>
+    <Description Language="Markdown">
+      Rewritten and published two more extensions - [Build History](https://marketplace.visualstudio.com/vsgallery/3a3a270f-580c-41cc-8e51-64086b2c1581) and [Fast Build Cancellation](https://marketplace.visualstudio.com/vsgallery/f73231f1-7fba-4dc9-ab6d-585f7e626f57).
+    </Description>
+  </Node>
+  <Node>
     <When>2017-03-29</When>
     <Title>Productivity VS extensions</Title>
     <Description Language="Markdown">
