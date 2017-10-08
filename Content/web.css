@@ -188,7 +188,8 @@ body {
   font-family: "Gabriola", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 40px;
   color: white;
-  line-height: 1; }
+  line-height: 1;
+  padding: 0; }
 
 .body {
   margin-top: 100px; }
