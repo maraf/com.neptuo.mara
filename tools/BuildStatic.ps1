@@ -1,8 +1,8 @@
 param([string]$buildFolder)
 
 $outputPath = "..\output";
-$sitePath = "$($buildFolder)\src\WebSite"
-$port = 58537
+$sitePath = "$($buildFolder)\src\Neptuo.Mara"
+$port = 7085
 $delay = 3000
 
 # Start IIS.
