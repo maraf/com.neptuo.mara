@@ -4,7 +4,7 @@
     <When>2017-12-15</When>
     <Title>is4wfw extensions</Title>
     <Description Language="Markdown">
-      Coming to school years when makin some extensions to [is4wfw](https://www.neptuo.com/project/cms/is4wfw). It's quite hard to understand PHP code which is 10years old. 
+      Coming back to school years when making some extensions to [is4wfw](https://www.neptuo.com/project/cms/is4wfw). It's quite hard to understand 10years old PHP code. 
       No layers, losts of copied code, but quite a good design in form of custom, server processed, HTML tags.
     </Description>
   </Node>
