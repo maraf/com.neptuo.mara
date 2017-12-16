@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2017-12-15</When>
+    <Title>is4wfw extensions</Title>
+    <Description Language="Markdown">
+      Coming to school years when makin some extensions to [is4wfw](https://www.neptuo.com/project/cms/is4wfw). It's quite hard to understand PHP code which is 10years old. 
+      No layers, losts of copied code, but quite a good design in form of custom, server processed, HTML tags.
+    </Description>
+  </Node>
+  <Node>
     <When>2017-10-07</When>
     <Title>Productivity VS extensions - vol. 2</Title>
     <Description Language="Markdown">
