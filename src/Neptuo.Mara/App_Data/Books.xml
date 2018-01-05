@@ -1,5 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Books>
+  <Book>
+    <When>2018-01-02</When>
+    <Name>Kšeft v Hádesu</Name>
+    <OriginalName>The Hades Business</OriginalName>
+    <Rating>3</Rating>
+    <Image>~/Content/Images/Books/kseft-v-hadesu.jpg</Image>
+    <Author>Terry Pratchett</Author>
+  </Book>
   <Book>
     <When>2017-10-05</When>
     <Name>Harry Potter a Vězeň z Azkabanu</Name>
