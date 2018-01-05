@@ -115,7 +115,7 @@
     <When>2008-03-10</When>
     <Description Language="Markdown">
       After implementing some simple CMS based on application requirements, I tought that something more reusable is needed
-      and started with [is4wfw](http://www.neptuo.com/cms/is4wfw).
+      and started with [is4wfw](http://www.neptuo.com/project/cms/is4wfw).
     </Description>
   </Node>
   <Node>
