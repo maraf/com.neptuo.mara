@@ -129,6 +129,14 @@
 	<Author>Ben Aaronovitch</Author>
   </Book>
   <Book>
+    <When>2016-03-15</When>
+    <Name>Xenocida</Name>
+    <OriginalName>Xenocide</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/xenocida.jpg</Image>
+	<Author>O. S. Card</Author>
+  </Book>
+  <Book>
     <When>2015-11-20</When>
     <Name>Dlouhá válka</Name>
     <OriginalName>The Long War</OriginalName>
