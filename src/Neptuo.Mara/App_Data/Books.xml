@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2018-04-21</When>
+    <Name>Norské dřevo</Name>
+    <OriginalName>Noruwei no Mori</OriginalName>
+    <Rating>5</Rating>
+    <Image>~/Content/Images/Books/norske-drevo.jpg</Image>
+    <Author>Haruki Murakami</Author>
+  </Book>
+  <Book>
     <When>2018-04-10</When>
     <Name>Harry Potter a Fénixův řád</Name>
     <OriginalName>Harry Potter and the Order of the Phoenix</OriginalName>
