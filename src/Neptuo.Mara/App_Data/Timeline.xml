@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2018-04-21</When>
+    <Title>Blazor and .NET in the browser</Title>
+    <Description Language="Markdown">
+	  Preparing to third release of experimental implementation of [Money - expenditure manager](https://github.com/maraf/Money) using [Blazor](www.blazor.net), currently hosted on Raspberry PI 3 at [money.neptuo.com](http://money.neptuo.com).
+    </Description>
+  </Node>
+  <Node>
     <When>2017-12-15</When>
     <Title>is4wfw extensions</Title>
     <Description Language="Markdown">
