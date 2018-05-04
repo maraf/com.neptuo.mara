@@ -2,7 +2,7 @@
 <Timeline>
   <Node>
     <When>2018-05-03</When>
-    <Title>Blazor and .NET in the browser</Title>
+    <Title>Git bundle backuper</Title>
     <Description Language="Markdown">
 	    Released [GitExtensions](http://gitextensions.github.io/) plugin for managing branch backups using bundles - [BundleBackuper](https://github.com/maraf/GitExtensions.BundleBackuper/releases).
     </Description>
