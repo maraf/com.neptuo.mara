@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2018-05-25</When>
+    <Name>Harry Potter a Princ dvojí krve</Name>
+    <OriginalName>Harry Potter and the Half-Blood Prince</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/princ-dvoji-krve.jpg</Image>
+    <Author>J. K. Rowlingová</Author>
+  </Book>
+  <Book>
     <When>2018-04-21</When>
     <Name>Norské dřevo</Name>
     <OriginalName>Noruwei no Mori</OriginalName>
