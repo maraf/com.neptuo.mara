@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2018-07-18</When>
+    <Name>Harry Potter a relikvie smrti</Name>
+    <OriginalName>Harry Potter and the Deathly Hallows</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/relikvie-smrti.jpg</Image>
+    <Author>J. K. Rowlingová</Author>
+  </Book>
+  <Book>
     <When>2018-05-25</When>
     <Name>Harry Potter a Princ dvojí krve</Name>
     <OriginalName>Harry Potter and the Half-Blood Prince</OriginalName>
