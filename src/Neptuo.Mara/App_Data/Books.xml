@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2018-08-21</When>
+    <Name>Prokleté domovy</Name>
+    <OriginalName>Broken Homes</OriginalName>
+    <Rating>5</Rating>
+    <Image>~/Content/Images/Books/proklete-domovy.jpg</Image>
+    <Author>Ben Aaronovitch</Author>
+  </Book>
+  <Book>
     <When>2018-07-18</When>
     <Name>Harry Potter a relikvie smrti</Name>
     <OriginalName>Harry Potter and the Deathly Hallows</OriginalName>
