@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2018-10-06</When>
+    <Title>GitExtensions Plugins Manager</Title>
+    <Description Language="Markdown">
+	    Trying to create a [NuGet-base plugin manager](https://github.com/maraf/GitExtensions.PluginManager) for [GitExtensions](http://gitextensions.github.io/).
+    </Description>
+  </Node>
+  <Node>
     <When>2018-05-03</When>
     <Title>Git bundle backuper</Title>
     <Description Language="Markdown">
