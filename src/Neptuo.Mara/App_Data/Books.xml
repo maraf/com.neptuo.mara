@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2019-01-12</When>
+    <Name>Nejodlehlejší stanice</Name>
+    <OriginalName>The Furthest Station</OriginalName>
+    <Rating>5</Rating>
+    <Image>~/Content/Images/Books/nejodlehlejsi-stanice.jpg</Image>
+    <Author>Ben Aaronovitch</Author>
+  </Book>
+  <Book>
     <When>2018-11-01</When>
     <Name>Strom viselců</Name>
     <OriginalName>The Hanging Tree</OriginalName>
