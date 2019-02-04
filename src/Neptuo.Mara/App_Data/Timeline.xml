@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2019-01-24</When>
+    <Title>Money in the Store</Title>
+    <Description Language="Markdown">
+	    Submitted my first application to the Microsoft Store - [Neptuo Money](https://www.microsoft.com/store/productid/9N50XHGW891S).
+    </Description>
+  </Node>
+  <Node>
+    <When>2019-01-01</When>
+    <Title>GitExtensions Solution Runner</Title>
+    <Description Language="Markdown">
+	    Published [Solution Runner](https://github.com/maraf/GitExtensions.SolutionRunner) - a plugin for the [GitExtensions](http://gitextensions.github.io/).
+    </Description>
+  </Node>
+  <Node>
     <When>2018-10-06</When>
     <Title>GitExtensions Plugins Manager</Title>
     <Description Language="Markdown">
