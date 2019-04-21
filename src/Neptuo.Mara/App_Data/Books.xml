@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2019-04-19</When>
+    <Name>Stojednaletý stařík, který se vrátil, aby zachránil svět</Name>
+    <OriginalName>Hundraettaringen som tänkte att han tänkte för mycket</OriginalName>
+    <Rating>5</Rating>
+    <Image>~/Content/Images/Books/stojednalety-starik-ktery-se-vratil.jpg</Image>
+    <Author>Jonas Jonasson</Author>
+  </Book>
+  <Book>
     <When>2019-01-12</When>
     <Name>Nejodlehlejší stanice</Name>
     <OriginalName>The Furthest Station</OriginalName>
