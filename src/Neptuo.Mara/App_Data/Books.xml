@@ -230,7 +230,7 @@
     <OriginalName>Speaker for the Dead</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/mluvci-za-mrtve.jpg</Image>
-	<Author>O. S. Card</Author>
+    <Author>O. S. Card</Author>
   </Book>
   <Book>
     <When>2015-08-08</When>
@@ -238,7 +238,7 @@
     <OriginalName>The Long Earth</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/dlouha-zeme.jpg</Image>
-	<Author>Terry Pratchett;Stephen Baxter</Author>
+	  <Author>Terry Pratchett;Stephen Baxter</Author>
   </Book>
   <Book>
     <When>2015-06-13</When>
@@ -246,7 +246,7 @@
     <OriginalName>A Year in the Merde</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/merde-rok-v-parizi.jpg</Image>
-	<Author>Stephen Clarke</Author>
+	  <Author>Stephen Clarke</Author>
   </Book>
   <Book>
     <When>2015-06-03</When>
@@ -254,7 +254,7 @@
     <OriginalName>Nanny Ogg</OriginalName>
     <Rating>2</Rating>
     <Image>~/Content/Images/Books/kucharka-starenky-oggove.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2014-01-24</When>
@@ -262,7 +262,7 @@
     <OriginalName>Hundraäringen som klev ut genom fönstret och försvan</OriginalName>
     <Rating>5</Rating>
     <Image>~/Content/Images/Books/stolety-starik-ktery-vylezl-z-okna-a-zmizel.jpg</Image>
-	<Author>Jonas Jonasson</Author>
+	  <Author>Jonas Jonasson</Author>
   </Book>
   <Book>
     <When>2014-10-24</When>
@@ -270,7 +270,7 @@
     <OriginalName>Smoke and Mirrors</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/kour-a-zrcadla.jpg</Image>
-	<Author>Neil Gaiman</Author>
+	  <Author>Neil Gaiman</Author>
   </Book>
   <Book>
     <When>2014-07-26</When>
@@ -278,7 +278,7 @@
     <OriginalName>A Study in Scarlet, The Sign of the Four, The Adventures of Sherlock Holmes</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/pribehy-sherlocka-holmese.jpg</Image>
-	<Author>A. C. Doyle</Author>
+	  <Author>A. C. Doyle</Author>
   </Book>
   <Book>
     <When>2014-05-12</When>
@@ -286,7 +286,7 @@
     <OriginalName>	Three Men in a Boat</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/tri-muzi-ve-clunu-o-psu-nemluve.jpg</Image>
-	<Author>J. Klapka Jerome</Author>
+	  <Author>J. Klapka Jerome</Author>
   </Book>
   <Book>
     <When>2014-05-12</When>
@@ -294,7 +294,7 @@
     <OriginalName>Witches Abroad</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-carodejky-na-cestach.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2014-02-23</When>
@@ -302,7 +302,7 @@
     <OriginalName>Twenty Nine Kisses from Roald Dahl</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/jedenadvacet-polibku.jpg</Image>
-	<Author>Roald Dahl</Author>
+	  <Author>Roald Dahl</Author>
   </Book>
   <Book>
     <When>2014-01-22</When>
@@ -310,7 +310,7 @@
     <OriginalName>Reaper Man</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-sekac.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-12-15</When>
@@ -318,7 +318,7 @@
     <OriginalName>Interword</OriginalName>
     <Rating>2</Rating>
     <Image>~/Content/Images/Books/mezisvet.jpg</Image>
-	<Author>Neil Gaiman</Author>
+	  <Author>Neil Gaiman</Author>
   </Book>
   <Book>
     <When>2013-12-02</When>
@@ -326,7 +326,7 @@
     <OriginalName>Ender's Game</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/enderova-hra.jpg</Image>
-	<Author>O. S. Card</Author>
+	  <Author>O. S. Card</Author>
   </Book>
   <Book>
     <When>2013-11-21</When>
@@ -334,7 +334,7 @@
     <OriginalName>The Graveyard Book</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/kniha-hrbitova.jpg</Image>
-	<Author>Neil Gaiman</Author>
+	  <Author>Neil Gaiman</Author>
   </Book>
   <Book>
     <When>2013-11-21</When>
@@ -342,7 +342,7 @@
     <OriginalName>Moving Pictures</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-pohyblive-obrazky.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-11-21</When>
@@ -350,7 +350,7 @@
     <OriginalName>Eric</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-erik.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-06-24</When>
@@ -358,7 +358,7 @@
     <OriginalName>Tales from Planet Earth</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/zkazky-z-planety-zeme.jpg</Image>
-	<Author>Arthur C. Clarke</Author>
+	  <Author>Arthur C. Clarke</Author>
   </Book>
   <Book>
     <When>2013-09-20</When>
@@ -366,7 +366,7 @@
     <OriginalName>Black Sun</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/cerny-dest.jpg</Image>
-	<Author>Graham Brown</Author>
+	  <Author>Graham Brown</Author>
   </Book>
   <Book>
     <When>2013-09-20</When>
@@ -374,7 +374,7 @@
     <OriginalName>Black Rain</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/cerny-dest.jpg</Image>
-	<Author>Graham Brown</Author>
+	  <Author>Graham Brown</Author>
   </Book>
   <Book>
     <When>2013-08-28</When>
@@ -382,7 +382,7 @@
     <OriginalName>Anansi Boys</OriginalName>
     <Rating>2</Rating>
     <Image>~/Content/Images/Books/anansiho-chlapci.jpg</Image>
-	<Author>Neil Gaiman</Author>
+	  <Author>Neil Gaiman</Author>
   </Book>
   <Book>
     <When>2013-08-03</When>
@@ -390,7 +390,7 @@
     <OriginalName>Neverwhere</OriginalName>
     <Rating>5</Rating>
     <Image>~/Content/Images/Books/nikdykde.jpg</Image>
-	<Author>Neil Gaiman</Author>
+	  <Author>Neil Gaiman</Author>
   </Book>
   <Book>
     <When>2013-07-29</When>
@@ -398,7 +398,7 @@
     <OriginalName>Guards! Guards!</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-straze-straze.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-07-15</When>
@@ -406,7 +406,7 @@
     <OriginalName>Pyramids</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-pyramidy.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-06-24</When>
@@ -414,7 +414,7 @@
     <OriginalName>American Gods</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/americti-bohove.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-05-10</When>
@@ -422,7 +422,7 @@
     <OriginalName>Good Omens</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/dobra-znameni.jpg</Image>
-	<Author>Terry Pratchett;Neil Gaiman</Author>
+	  <Author>Terry Pratchett;Neil Gaiman</Author>
   </Book>
   <Book>
     <When>2013-04-15</When>
@@ -430,7 +430,7 @@
     <OriginalName>Sourcery</OriginalName>
     <Rating>2</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-magicky-prazdroj.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-03-02</When>
@@ -438,7 +438,7 @@
     <OriginalName>Equal Rites</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-caropravnost.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2013-01-20</When>
@@ -446,7 +446,7 @@
     <OriginalName>Wyrd Sisters</OriginalName>
     <Rating>5</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-soudne-sestry.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2012-12-30</When>
@@ -454,7 +454,7 @@
     <OriginalName>Mort</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-mort.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2012-11-18</When>
@@ -462,7 +462,7 @@
     <OriginalName>The Light Fantastic</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-lehke-fantasticno.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2012-10-10</When>
@@ -470,7 +470,7 @@
     <OriginalName>The Colour of Magic</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/uzasna-zemeplocha-barva-kouzel.jpg</Image>
-	<Author>Terry Pratchett</Author>
+	  <Author>Terry Pratchett</Author>
   </Book>
   <Book>
     <When>2012-08-15</When>
@@ -478,7 +478,7 @@
     <OriginalName>The Return of the King</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/pan-prstenu-navrat-krale.jpg</Image>
-	<Author>J. R. R. Tolkien</Author>
+	  <Author>J. R. R. Tolkien</Author>
   </Book>
   <Book>
     <When>2012-06-10</When>
@@ -486,7 +486,7 @@
     <OriginalName>The Two Towers</OriginalName>
     <Rating>3</Rating>
     <Image>~/Content/Images/Books/pan-prstenu-dve-veze.jpg</Image>
-	<Author>J. R. R. Tolkien</Author>
+	  <Author>J. R. R. Tolkien</Author>
   </Book>
   <Book>
     <When>2012-05-23</When>
@@ -494,6 +494,6 @@
     <OriginalName>The Fellowship of the Ring</OriginalName>
     <Rating>4</Rating>
     <Image>~/Content/Images/Books/pan-prstenu-spolecenstvo-prstenu.jpg</Image>
-	<Author>J. R. R. Tolkien</Author>
+	  <Author>J. R. R. Tolkien</Author>
   </Book>
 </Books>
