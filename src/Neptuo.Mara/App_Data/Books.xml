@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2019-05-16</When>
+    <Name>Pomsta jednooké letkyně</Name>
+    <OriginalName>Predator's Gold</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/pomsta-jednooke-letkyne.jpg</Image>
+    <Author>Philip Reeve</Author>
+  </Book>
+  <Book>
     <When>2019-04-19</When>
     <Name>Stojednaletý stařík, který se vrátil, aby zachránil svět</Name>
     <OriginalName>Hundraettaringen som tänkte att han tänkte för mycket</OriginalName>
