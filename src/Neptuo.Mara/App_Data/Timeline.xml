@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Timeline>
   <Node>
+    <When>2019-05-16</When>
+    <Title>Git Extensions</Title>
+    <Description Language="Markdown">
+	    I have joined [Git Extensions organization](https://github.com/gitextensions).
+    </Description>
+  </Node>
+  <Node>
     <When>2019-01-24</When>
     <Title>Money in the Store</Title>
     <Description Language="Markdown">
