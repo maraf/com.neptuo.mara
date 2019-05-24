@@ -2,6 +2,14 @@
 <Books>
   <Book>
     <When>2019-05-16</When>
+    <Name>Koralina</Name>
+    <OriginalName>Coraline</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/koralina.jpg</Image>
+    <Author>Neil Gaiman</Author>
+  </Book>
+  <Book>
+    <When>2019-05-24</When>
     <Name>Pomsta jednooké letkyně</Name>
     <OriginalName>Predator's Gold</OriginalName>
     <Rating>4</Rating>
