@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2019-08-07</When>
+    <Name>Artemis Fowl</Name>
+    <OriginalName>Artemis Fowl</OriginalName>
+    <Rating>3</Rating>
+    <Image>~/Content/Images/Books/artemis-fowl.jpg</Image>
+    <Author>Eoin Colfer</Author>
+  </Book>
+  <Book>
     <When>2019-05-16</When>
     <Name>Koralina</Name>
     <OriginalName>Coraline</OriginalName>
