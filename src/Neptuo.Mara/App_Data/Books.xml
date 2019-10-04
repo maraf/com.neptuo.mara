@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Books>
   <Book>
+    <When>2019-09-30</When>
+    <Name>Artemis Fowl: Operace Arktida</Name>
+    <OriginalName>Artemis Fowl: The Arctic Incident</OriginalName>
+    <Rating>4</Rating>
+    <Image>~/Content/Images/Books/artemis-fowl-operace-arktida.jpg</Image>
+    <Author>Eoin Colfer</Author>
+  </Book>
+  <Book>
     <When>2019-08-07</When>
     <Name>Artemis Fowl</Name>
     <OriginalName>Artemis Fowl</OriginalName>
