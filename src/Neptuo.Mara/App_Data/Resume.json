@@ -1,0 +1,207 @@
+{
+    "basics": {
+        "name": "Marek Fišera",
+        "label": "Programmer / Architect",
+        "birth": "1988-01-18",
+        "summary": "In last more that 10y I worked on different platforms with different tools. Most of time I was developing on the web, but I also have a lots of eperiences with Windows desktop and Visual Studio Extensibility. In last years I focus on software architecture, clean code and lastly on scalability and microservices.",
+        "website": "https://mara.neptuo.com",
+        "email": "mara@neptuo.com",
+        "location": {
+            "city": "Prague",
+            "countryCode": "CZ"
+        },
+        "profiles": [
+            {
+                "username": "marekfisera",
+                "url": "https://twitter.com/marekfisera",
+                "network": "Twitter"
+            },
+            {
+                "url": "https://github.com/maraf",
+                "username": "maraf",
+                "network": "GitHub"
+            },
+            {
+                "url": "https://github.com/neptuo",
+                "username": "neptuo",
+                "network": "GitHub"
+            },
+            {
+                "url": "https://www.neptuo.com/blog",
+                "network": "Blog"
+            }
+        ]
+    },
+    "education": [
+        {
+            "endDate": "2014-06-05",
+            "startDate": "2011-09-01",
+            "area": "Software Engineering",
+            "studyType": "Master",
+            "institution": "Czech Technical University in Prague"
+        },
+        {
+            "endDate": "2011-06-24",
+            "startDate": "2007-09-01",
+            "area": "Software Engineering",
+            "studyType": "Bachelor",
+            "institution": "Czech Technical University in Prague"
+        }
+    ],
+    "skills": [
+        {
+            "keywords": [
+                "CQRS",
+                "Onion Architecture",
+                "Clean Code"
+            ],
+            "level": "Senior",
+            "name": "Solution Architecture"
+        },
+        {
+            "keywords": [
+                "C#",
+                "PHP",
+                "ASP.NET Core"
+            ],
+            "level": "Senior",
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "JavaScript",
+                "WebAssembly",
+                "Blazor",
+                "HTML",
+                "(S)CSS",
+                "Bootstrap"
+            ],
+            "level": "Senior",
+            "name": "Web Frontend"
+        },
+        {
+            "keywords": [
+                "WPF",
+                "UWP"
+            ],
+            "level": "Senior",
+            "name": "Windows Frontend"
+        },
+        {
+            "keywords": [
+                "Kubernetes",
+                "Docker"
+            ],
+            "level": "Junior",
+            "name": "Operations"
+        }
+    ],
+    "work": [
+        {
+            "summary": "Full stack developer (contractor)",
+            "highlights": [
+                "Internal system for managing assets.",
+                "Solution based on CMS (PHP) with custom data structures."
+            ],
+            "company": "APS Management Services s.r.o.",
+            "position": "Developer / architect",
+            "startDate": "2019-08",
+            "endDate": "2020-03"
+        },
+        {
+            "summary": "Solution architect (contractor)",
+            "highlights": [
+                "Technical steering.",
+                "Applying clean code principles on 10yo codebase.",
+                "Focus on leading developers towards selected architecture and coding standards."
+            ],
+            "position": "Architect",
+            "startDate": "2017"
+        },
+        {
+            "summary": "Full stack developer (contractor)",
+            "highlights": [
+                "C#, SQL server, Visual Studio.",
+                "Work on monolithtic system (~1000 entities) for travel agencies.",
+                "Infrastructure components consumed by dev team."
+            ],
+            "position": "Senior Developer",
+            "startDate": "2011",
+            "endDate": "2017"
+        },
+        {
+            "summary": "Frontend developer (contractor)",
+            "highlights": [
+                "CMS-based public facing webs, mostly for travel agencies."
+            ],
+            "position": "Junior Developer",
+            "startDate": "2008",
+            "endDate": "2011"
+        },
+        {
+            "summary": "Frontend developer",
+            "highlights": [
+                "Public facing web development for various clients.",
+                "Based on in-house developed CMS (PHP)."
+            ],
+            "position": "Developer",
+            "startDate": "2010"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Money - personal expense manager",
+            "url": "https://github.com/maraf/Money",
+            "description": "Cutting edge web technologies - blazor (web assembly), signalR, CQRS"
+        },
+        {
+            "name": "Kubernets cluster running on bunch of raspberry pi",
+            "description": "Pocket size cluster with its router, dns service, kubernetes, monitoring, gitops etc."
+        },
+        {
+            "name": "Git Extensions - Windows UI for git",
+            "url": "https://github.com/gitextensions/gitextensions",
+            "description": "Member of the team, responsible for plugin infrastructure and UI manager."
+        },
+        {
+            "name": "Plugin Manager",
+            "url": "https://github.com/maraf/PluginManager",
+            "description": "Universal plugin manager for Windows UI applications."
+        },
+        {
+            "name": "Visual Studio Extensions",
+            "url": "http://github.com/neptuo/Productivity",
+            "description": "Set of extensions for Microsoft Visual Studio that makes every day coding easier."
+        },
+        {
+            "name": "Solution Runner",
+            "url": "http://github.com/neptuo/Productivity.SolutionRunner",
+            "description": "Windows desktop app for working with many Visual Studio solutions."
+        },
+        {
+            "name": "is4wfw - CMS",
+            "url": "https://github.com/maraf/PHP-WebFramework",
+            "description": "Component-based CMS written in PHP with multi tenant support, used defined custom entites, etc."
+        }
+    ],
+    "interests": [
+        {
+            "name": "Open source"
+        },
+        {
+            "name": "New technologies"
+        },
+        {
+            "name": "Software architecture"
+        },
+        {
+            "name": "Wood work"
+        },
+        {
+            "name": "Biking"
+        },
+        {
+            "name": "Reading"
+        }
+    ]
+}
