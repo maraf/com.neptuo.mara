@@ -16,7 +16,14 @@ namespace Neptuo.Mara
 
             routes.MapModel<HomeRoute>();
             routes.MapModel<BookRoute>();
-            
+            routes.MapModel<ResumeRoute>();
+
+            routes.MapRoute(
+                name: "Resume.json",
+                url: "Resume.json",
+                defaults: new { controller = "Content", action = "ResumeJson" }
+            );
+
             routes.MapRoute(
                 name: "404",
                 url: "404.html",

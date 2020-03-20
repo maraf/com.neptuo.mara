@@ -130,12 +130,14 @@
     <Compile Include="Models\Books\BookModel.cs" />
     <Compile Include="Models\HtmlFormatter.cs" />
     <Compile Include="Models\HttpRequestBaseExtensions.cs" />
+    <Compile Include="Models\Resumes\Model.cs" />
     <Compile Include="Models\TextModel.cs" />
     <Compile Include="Models\Timelining\NodeDataService.cs" />
     <Compile Include="Models\Timelining\NodeList.cs" />
     <Compile Include="Models\Timelining\NodeModel.cs" />
     <Compile Include="Navigation\BookRoute.cs" />
     <Compile Include="Navigation\HomeRoute.cs" />
+    <Compile Include="Navigation\ResumeRoute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -206,6 +208,7 @@
     <Content Include="Content\Images\Books\zkazky-z-planety-zeme.jpg" />
     <Content Include="Views\Content\Book.cshtml" />
     <Content Include="Views\Content\NotFound.cshtml" />
+    <Content Include="Views\Content\Resume.cshtml" />
     <Resource Include="Content\Images\Background.png" />
     <Content Include="App_Data\Timeline.xml">
       <SubType>Designer</SubType>
@@ -220,6 +223,7 @@
     <Content Include="Content\Images\FootBackground.png" />
     <Content Include="Content\Images\mnau2_sq.jpg" />
     <Content Include="Content\Images\TimelineBackground.png" />
+    <Content Include="App_Data\Resume.json" />
     <None Include="Content\Stylesheet\common.scss" />
     <Content Include="Content\Stylesheet\responsiveness.scss" />
     <None Include="Content\Stylesheet\design.scss" />
