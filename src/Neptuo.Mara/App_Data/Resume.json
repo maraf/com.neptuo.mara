@@ -122,6 +122,16 @@
         {
             "summary": "Full stack developer (contractor)",
             "highlights": [
+                "Building scalable social network (C#, CQRS, Azure)."
+            ],
+            "company": "Lovikin s.r.o.",
+            "position": "Senior Developer",
+            "startDate": "2016",
+            "endDate": "2017"
+        },
+        {
+            "summary": "Full stack developer (contractor)",
+            "highlights": [
                 "C#, SQL server, Visual Studio.",
                 "Work on monolithtic system (~1000 entities) for travel agencies.",
                 "Infrastructure components consumed by dev team."
@@ -129,16 +139,6 @@
             "company": "MagicWare s.r.o.",
             "position": "Senior Developer",
             "startDate": "2011",
-            "endDate": "2017"
-        },
-        {
-            "summary": "Full stack developer (contractor)",
-            "highlights": [
-                "Building scalable social network (C#, CQRS, Azure)."
-            ],
-            "company": "Lovikin s.r.o.",
-            "position": "Senior Developer",
-            "startDate": "2016",
             "endDate": "2017"
         },
         {
@@ -163,7 +163,7 @@
             "endDate": "2009"
         },
         {
-            "summary": "Frontend developer",
+            "summary": "Independent frontend developer",
             "highlights": [
                 "Public facing web development for various clients.",
                 "Based on in-house developed CMS (PHP)."
