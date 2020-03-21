@@ -23,14 +23,26 @@ If (Test-Path "$($sitePath)\Content\Images")
     Copy-Item "$($sitePath)\Content\Images\*" -Destination "$($outputPath)\Content\Images" -Force -Recurse
 }
 
-New-Item "$($outputPath)\Content" -ItemType Directory
-Copy-Item "$($sitePath)\Content\*.css" -Destination "$($outputPath)\Content" -Force -Recurse
+$contentPath = "$($outputPath)\Content";
+If (!(Test-Path $contentPath))
+{
+    New-Item $contentPath -ItemType Directory
+}
+Copy-Item "$($sitePath)\Content\*.css" -Destination $contentPath -Force -Recurse
 
-New-Item "$($outputPath)\fonts" -ItemType Directory
-Copy-Item "$($sitePath)\fonts\*" -Destination "$($outputPath)\fonts" -Force -Recurse
+$fontsPath = "$($outputPath)\fonts";
+If (!(Test-Path $fontsPath)) 
+{
+    New-Item $fontsPath -ItemType Directory
+}
+Copy-Item "$($sitePath)\fonts\*" -Destination $fontsPath -Force -Recurse
 
-New-Item "$($outputPath)\Scripts" -ItemType Directory
-Copy-Item "$($sitePath)\Scripts\*.js" -Destination "$($outputPath)\Scripts" -Force -Recurse
+$scriptsPath = "$($outputPath)\Scripts";
+If (!(Test-Path $scriptsPath))
+{
+    New-Item $scriptsPath -ItemType Directory
+}
+Copy-Item "$($sitePath)\Scripts\*.js" -Destination $scriptsPath -Force -Recurse
 
 # Debug print output.
 Write-Host "Content of output:"
