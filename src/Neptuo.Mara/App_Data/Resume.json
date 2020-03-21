@@ -132,6 +132,16 @@
             "endDate": "2017"
         },
         {
+            "summary": "Full stack developer (contractor)",
+            "highlights": [
+                "Building scalable social network (C#, CQRS, Azure)."
+            ],
+            "company": "Lovikin s.r.o.",
+            "position": "Senior Developer",
+            "startDate": "2016",
+            "endDate": "2017"
+        },
+        {
           "summary": "Frontend developer (contractor)",
           "highlights": [
             "CMS-based public facing webs, mostly for travel agencies."
