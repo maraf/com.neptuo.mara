@@ -132,14 +132,25 @@
             "endDate": "2017"
         },
         {
-            "summary": "Frontend developer (contractor)",
+          "summary": "Frontend developer (contractor)",
+          "highlights": [
+            "CMS-based public facing webs, mostly for travel agencies."
+          ],
+          "company": "MagicWare s.r.o.",
+          "position": "Junior Developer",
+          "startDate": "2008",
+          "endDate": "2011"
+        },
+        {
+            "summary": "Frontend / backend developer (contractor)",
             "highlights": [
-                "CMS-based public facing webs, mostly for travel agencies."
+                "Building components for Smarty PHP framework.",
+                "Public facing web development."
             ],
-            "company": "MagicWare s.r.o.",
+            "company": "GomGate s.r.o.",
             "position": "Junior Developer",
-            "startDate": "2008",
-            "endDate": "2011"
+            "startDate": "2009",
+            "endDate": "2009"
         },
         {
             "summary": "Frontend developer",
