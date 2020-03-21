@@ -8,7 +8,7 @@
         "email": "mara@neptuo.com",
         "location": {
             "city": "Prague",
-            "countryCode": "CZ"
+            "country": "Czech Republic"
         },
         "profiles": [
             {
@@ -34,17 +34,17 @@
     },
     "education": [
         {
-            "endDate": "2014-06-05",
-            "startDate": "2011-09-01",
+            "endDate": "2014",
+            "startDate": "2011",
             "area": "Software Engineering",
-            "studyType": "Master",
+            "studyType": "Master degree",
             "institution": "Czech Technical University in Prague"
         },
         {
-            "endDate": "2011-06-24",
-            "startDate": "2007-09-01",
+            "endDate": "2011",
+            "startDate": "2007",
             "area": "Software Engineering",
-            "studyType": "Bachelor",
+            "studyType": "Bachelor degree",
             "institution": "Czech Technical University in Prague"
         }
     ],
@@ -105,8 +105,8 @@
             ],
             "company": "APS Management Services s.r.o.",
             "position": "Developer / architect",
-            "startDate": "2019-08",
-            "endDate": "2020-03"
+            "startDate": "2019",
+            "endDate": "2020"
         },
         {
             "summary": "Solution architect (contractor)",
@@ -115,6 +115,7 @@
                 "Applying clean code principles on 10yo codebase.",
                 "Focus on leading developers towards selected architecture and coding standards."
             ],
+            "company": "MagicWare s.r.o.",
             "position": "Architect",
             "startDate": "2017"
         },
@@ -125,6 +126,7 @@
                 "Work on monolithtic system (~1000 entities) for travel agencies.",
                 "Infrastructure components consumed by dev team."
             ],
+            "company": "MagicWare s.r.o.",
             "position": "Senior Developer",
             "startDate": "2011",
             "endDate": "2017"
@@ -134,6 +136,7 @@
             "highlights": [
                 "CMS-based public facing webs, mostly for travel agencies."
             ],
+            "company": "MagicWare s.r.o.",
             "position": "Junior Developer",
             "startDate": "2008",
             "endDate": "2011"

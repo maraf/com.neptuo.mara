@@ -36,7 +36,7 @@ namespace Neptuo.Mara.Controllers
         public ActionResult ResumeJson()
         {
             ResumeModel model = LoadResume();
-            return Json(model);
+            return Json(model, JsonRequestBehavior.AllowGet);
         }
 
         public ActionResult NotFound()

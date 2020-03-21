@@ -1,9 +1,164 @@
 ﻿@{
     Layout = null;
 }
-
 @model Neptuo.Mara.Models.Resumes.ResumeModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<h1>
-    @Model.Basics.Name
-</h1>
+    <title>@Model.Basics.Name - Resume</title>
+
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/fontawesome/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4 mb-4">
+        <h1 class="display-4">
+            @Model.Basics.Name
+        </h1>
+        <span class="text-muted">
+            @Model.Basics.Label
+        </span>
+        <address class="mt-2">
+            <p>
+                <span class="fa fa-map-marker-alt"></span>
+                @Model.Basics.Location.City, @Model.Basics.Location.Country
+            </p>
+
+            <h4>Contacts</h4>
+            <p>
+                @TextWithIcon("fa fa-at", Model.Basics.Email)
+
+                @TextWithIcon("fa fa-globe", Model.Basics.Website)
+            </p>
+
+            @if (Model.Basics.Profiles.Length > 0)
+            {
+                <h4>Profiles</h4>
+                <p>
+                    @foreach (var profile in Model.Basics.Profiles)
+                    {
+                        @TextWithIcon(profile.FindIcon(), profile.Username ?? profile.Url);
+                    }
+                </p>
+            }
+        </address>
+
+        <h2 class="h4 mt-4 mb-4">About</h2>
+        <p class="mt-2">
+            @Model.Basics.Summary
+        </p>
+
+        @if (Model.Education.Length > 0)
+        {
+            <h2 class="h4 mt-4 mb-4">Education</h2>
+            <ul>
+                @foreach (var education in Model.Education)
+                {
+                    <li class="mb-3">
+                        <h3 class="h6 mb-0">@education.Area</h3>
+                        @education.StudyType <br />
+                        @education.Institution <br />
+                        <span class="text-muted">@education.StartDate &mdash; @(education.EndDate ?? "now")</span>
+                    </li>
+                }
+            </ul>
+        }
+
+        @if (Model.Work.Length > 0)
+        {
+            <h2 class="h4 mt-4 mb-4">Work Experience</h2>
+            <ul>
+                @foreach (var work in Model.Work)
+                {
+                    <li class="mb-3">
+                        <span class="text-muted">@work.StartDate &mdash; @(work.EndDate ?? "now")</span>
+                        <h3 class="h6 mt-0 mb-0">@work.Summary</h3>
+                        @if (work.Company != null)
+                        {
+                            @work.Company<br />
+                        }
+                        @work.Position<br />
+
+                        @if (work.Highlights.Length > 0)
+                        {
+                            <ul>
+                                @foreach (var highlight in work.Highlights)
+                                {
+                                    <li>@highlight</li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        }
+
+        @if (Model.Skills.Length > 0)
+        {
+            <h2 class="h4 mt-4 mb-4">Skills</h2>
+            <ul>
+                @foreach (var skill in Model.Skills)
+                {
+                    <li class="mb-3">
+                        <h3 class="h6 mt-0 mb-0">
+                            @skill.Name
+                            <small class="text-muted">@skill.Level</small>
+                        </h3>
+                        <ul>
+                            @foreach (var keyword in skill.Keywords)
+                            {
+                                <li>@keyword</li>
+                            }
+                        </ul>
+                    </li>
+                }
+            </ul>
+        }
+
+        @if (Model.Projects.Length > 0)
+        {
+            <h2 class="h4 mt-4 mb-4">Projects</h2>
+            <ul>
+                @foreach (var project in Model.Projects)
+                {
+                    <li class="mb-3">
+                        <h3 class="h6 mt-0 mb-0">@project.Name</h3>
+                        <p class="mb-0">@project.Description</p>
+                        @if (!String.IsNullOrEmpty(project.Url))
+                        {
+                            <span class="text-muted">@project.Url</span>
+                        }
+                    </li>
+                }
+            </ul>
+        }
+
+        @if (Model.Interests.Length > 0)
+        {
+            <h2 class="h4 mt-4 mb-4">Interests</h2>
+            <ul>
+                @foreach (var interest in Model.Interests)
+                {
+                    <li>@interest.Name</li>
+                }
+            </ul>
+        }
+    </div>
+
+</body>
+</html>
+
+@helper TextWithIcon(string icon, string text)
+{
+    if (!String.IsNullOrEmpty(icon))
+    {
+        <span class="@icon"></span>
+    }
+
+    @text
+    <br />
+}

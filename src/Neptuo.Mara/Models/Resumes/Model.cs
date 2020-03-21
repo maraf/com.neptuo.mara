@@ -32,7 +32,7 @@ namespace Neptuo.Mara.Models.Resumes
     public class LocationModel
     {
         public string City { get; set; }
-        public string CountryCode { get; set; }
+        public string Country { get; set; }
     }
 
     public class ProfileModel
@@ -40,6 +40,16 @@ namespace Neptuo.Mara.Models.Resumes
         public string Username { get; set; }
         public string Url { get; set; }
         public string Network { get; set; }
+
+        public string FindIcon()
+        {
+            if (Network == "Twitter")
+                return "fab fa-twitter";
+            else if (Network == "GitHub")
+                return "fab fa-github";
+            else
+                return "fa fa-globe";
+        }
     }
 
     public class EducationModel
