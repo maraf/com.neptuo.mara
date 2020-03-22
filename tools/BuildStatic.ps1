@@ -38,6 +38,13 @@ If (!(Test-Path $fontsPath))
 }
 Copy-Item "$($sitePath)\fonts\*" -Destination $fontsPath -Force -Recurse
 
+$fontsPath = "$($outputPath)\lib";
+If (!(Test-Path $fontsPath)) 
+{
+    New-Item $fontsPath -ItemType Directory
+}
+Copy-Item "$($sitePath)\lib\*" -Destination $fontsPath -Force -Recurse
+
 $scriptsPath = "$($outputPath)\Scripts";
 If (!(Test-Path $scriptsPath))
 {
