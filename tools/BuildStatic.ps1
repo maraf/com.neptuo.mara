@@ -14,7 +14,7 @@ Start-Sleep -Milliseconds $delay
 
 # Crawl site.
 Write-Host "Running StaticSiteCrawler."
-.\Tools\StaticSiteCrawler.exe http://localhost:$($port)/ $outputPath / /resume
+.\Tools\StaticSiteCrawler.exe http://localhost:$($port)/ $outputPath / /resume /404.html
 
 # Copy assets.
 $imagesPath = "$($sitePath)\Content\Images";
