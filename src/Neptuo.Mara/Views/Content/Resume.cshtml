@@ -86,7 +86,10 @@
                                 @: &mdash; @(work.EndDate ?? "now")
                             }
                         </span>
-                        <h3 class="h6 mt-0 mb-0">@work.Summary</h3>
+                        <h3 class="h6 mt-0 mb-0">
+                            @work.Summary
+                            <small class="text-muted">@work.Position</small>
+                        </h3>
                         
                         @if (work.Company != null)
                         {
@@ -94,9 +97,6 @@
                             <br />
                         }
                         
-                        @work.Position
-                        <br />
-
                         @if (work.Highlights.Length > 0)
                         {
                             <ul>
