@@ -3,4 +3,6 @@
 
 @media print {
   a {
-    text-decoration: none !important; } }
+    text-decoration: none !important; }
+  .print-inside-avoid {
+    page-break-inside: avoid; } }

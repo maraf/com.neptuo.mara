@@ -23,7 +23,7 @@
         <span class="text-muted">
             @Model.Basics.Label
         </span>
-        <address class="mt-2">
+        <address class="mt-2 print-inside-avoid">
             <p>
                 <span class="fa fa-map-marker-alt"></span>
                 @Model.Basics.Location.City, @Model.Basics.Location.Country
@@ -59,7 +59,7 @@
             <ul>
                 @foreach (var education in Model.Education)
                 {
-                    <li class="mb-3">
+                    <li class="mb-3 print-inside-avoid">
                         <span class="text-muted">@education.StartDate &mdash; @(education.EndDate ?? "now")</span>
                         <h3 class="h6 mb-0">@education.Area</h3>
 
@@ -79,7 +79,7 @@
             <ul>
                 @foreach (var work in Model.Work)
                 {
-                    <li class="mb-3">
+                    <li class="mb-3 print-inside-avoid">
                         <span class="text-muted">
                             @work.StartDate
                             @if (work.StartDate != work.EndDate)
@@ -118,7 +118,7 @@
             <ul>
                 @foreach (var skill in Model.Skills)
                 {
-                    <li class="mb-3">
+                    <li class="mb-3 print-inside-avoid">
                         <h3 class="h6 mt-0 mb-0">
                             @skill.Name
                             <small class="text-muted">@skill.Level</small>
@@ -140,7 +140,7 @@
             <ul>
                 @foreach (var project in Model.Projects)
                 {
-                    <li class="mb-3">
+                    <li class="mb-3 print-inside-avoid">
                         <h3 class="h6 mt-0 mb-0">@project.Name</h3>
                         <p class="mb-0">@project.Description</p>
                         @if (!String.IsNullOrEmpty(project.Url))
