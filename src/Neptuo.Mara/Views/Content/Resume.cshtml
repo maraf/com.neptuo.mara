@@ -32,7 +32,7 @@
             <p>
                 @TextWithIcon("fa fa-at", Model.Basics.Email)
 
-                @TextWithIcon("fa fa-globe", Model.Basics.Website)
+                @TextWithIcon("fa fa-globe", Model.Basics.Website, Model.Basics.Website)
             </p>
 
             @if (Model.Basics.Profiles.Length > 0)
@@ -41,7 +41,7 @@
                 <p>
                     @foreach (var profile in Model.Basics.Profiles)
                     {
-                        @TextWithIcon(profile.FindIcon(), profile.Username ?? profile.Url);
+                        @TextWithIcon(profile.FindIcon(), profile.Username ?? profile.Url, profile.Url);
                     }
                 </p>
             }
@@ -61,8 +61,8 @@
                     <li class="mb-3">
                         <span class="text-muted">@education.StartDate &mdash; @(education.EndDate ?? "now")</span>
                         <h3 class="h6 mb-0">@education.Area</h3>
-                        
-                        <em>@education.Institution</em> 
+
+                        <em>@education.Institution</em>
                         <br />
 
                         @education.StudyType
@@ -80,7 +80,7 @@
                 {
                     <li class="mb-3">
                         <span class="text-muted">
-                            @work.StartDate 
+                            @work.StartDate
                             @if (work.StartDate != work.EndDate)
                             {
                                 @: &mdash; @(work.EndDate ?? "now")
@@ -90,13 +90,13 @@
                             @work.Summary
                             <small class="text-muted">@work.Position</small>
                         </h3>
-                        
+
                         @if (work.Company != null)
                         {
                             <em>@work.Company</em>
                             <br />
                         }
-                        
+
                         @if (work.Highlights.Length > 0)
                         {
                             <ul>
@@ -144,7 +144,11 @@
                         <p class="mb-0">@project.Description</p>
                         @if (!String.IsNullOrEmpty(project.Url))
                         {
-                            <span class="text-muted">@project.Url</span>
+                            <a target="_blank" href="@project.Url">
+                                <span class="text-muted">
+                                    @project.Url
+                                </span>
+                            </a>
                         }
                     </li>
                 }
@@ -166,13 +170,24 @@
 </body>
 </html>
 
-@helper TextWithIcon(string icon, string text)
+@helper TextWithIcon(string icon, string text, string link = null)
 {
     if (!String.IsNullOrEmpty(icon))
     {
         <span class="@icon"></span>
     }
 
-    @text
+    if (!String.IsNullOrEmpty(link))
+    {
+        <a target="_blank" href="@link">
+            <span class="text-dark">
+                @text
+            </span>
+        </a>
+    }
+    else
+    {
+        @text
+    }
     <br />
 }
