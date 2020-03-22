@@ -13,6 +13,7 @@
 
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/lib/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/resume.min.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container mt-4 mb-4">
@@ -180,9 +181,7 @@
     if (!String.IsNullOrEmpty(link))
     {
         <a target="_blank" href="@link">
-            <span class="text-dark">
-                @text
-            </span>
+            @text
         </a>
     }
     else

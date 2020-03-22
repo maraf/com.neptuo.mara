@@ -1,0 +1,6 @@
+﻿a {
+  color: #212529 !important; }
+
+@media print {
+  a {
+    text-decoration: none !important; } }

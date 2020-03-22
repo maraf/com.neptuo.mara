@@ -206,6 +206,12 @@
     <Content Include="Content\Images\Books\xenocida.jpg" />
     <Content Include="Content\Images\Books\zaludne-leto.jpg" />
     <Content Include="Content\Images\Books\zkazky-z-planety-zeme.jpg" />
+    <Content Include="Content\resume.css">
+      <DependentUpon>resume.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\resume.min.css">
+      <DependentUpon>resume.css</DependentUpon>
+    </Content>
     <Content Include="lib\bootstrap\dist\css\bootstrap-grid.css" />
     <Content Include="lib\bootstrap\dist\css\bootstrap-grid.min.css" />
     <Content Include="lib\bootstrap\dist\css\bootstrap-reboot.css" />
@@ -265,6 +271,7 @@
     <Content Include="Content\Images\mnau2_sq.jpg" />
     <Content Include="Content\Images\TimelineBackground.png" />
     <Content Include="App_Data\Resume.json" />
+    <Content Include="Content\resume.scss" />
     <None Include="Content\Stylesheet\common.scss" />
     <Content Include="Content\Stylesheet\responsiveness.scss" />
     <None Include="Content\Stylesheet\design.scss" />
