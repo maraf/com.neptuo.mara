@@ -14,13 +14,14 @@ Start-Sleep -Milliseconds $delay
 
 # Crawl site.
 Write-Host "Running StaticSiteCrawler."
-.\Tools\StaticSiteCrawler.exe http://localhost:$($port)/ $outputPath
+.\Tools\StaticSiteCrawler.exe http://localhost:$($port)/ $outputPath / /resume
 
 # Copy assets.
-If (Test-Path "$($sitePath)\Content\Images") 
+$imagesPath = "$($sitePath)\Content\Images";
+If (!(Test-Path $imagesPath)) 
 {
-    New-Item "$($outputPath)\Content\Images" -ItemType Directory
-    Copy-Item "$($sitePath)\Content\Images\*" -Destination "$($outputPath)\Content\Images" -Force -Recurse
+    New-Item $imagesPath -ItemType Directory
+    Copy-Item "$($sitePath)\Content\Images\*" -Destination $imagesPath -Force -Recurse
 }
 
 $contentPath = "$($outputPath)\Content";
