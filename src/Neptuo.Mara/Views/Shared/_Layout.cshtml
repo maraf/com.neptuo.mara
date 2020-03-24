@@ -1,8 +1,8 @@
-﻿@helper MenuItem(string text, string subtext, string icon, object route, bool isExactUrlMatched = false)
+﻿@helper MenuItem(string text, string subtext, string icon, object route, bool isExactUrlMatched = false, bool isExternalLink = false)
 {
     var url = Url.ModelUrl(route);
     <li class="@Request.ActiveCssClass(url, isExactUrlMatched)">
-        <a href="@Request.ResolveUrl(url)">
+        <a href="@Request.ResolveUrl(url)" @(isExternalLink ? "target='_blank'" : "")>
             <div class="maintext">
                 @text
                 <span class="fa fa-@icon"></span>
@@ -39,8 +39,9 @@
             </div>
 
             <ul class="right">
-                @MenuItem("Me", "My developer's life", "graduation-cap", new HomeRoute(), true)
+                @MenuItem("Me", "My developer's life", "graduation-cap", new HomeRoute(), isExactUrlMatched: true)
                 @MenuItem("Books", "Those I liked or don't", "book", new BookRoute())
+                @MenuItem("Resume", "My professional experience", "user", new ResumeRoute())
             </ul>
         </div>
     </nav>
@@ -94,7 +95,7 @@
                     "\n" +
                     "My email address is the current domain name where you replace first '.' (dot) by '@@' (at).\n" +
                     "\n" +
-                    "Note: Take just the domain name, without protocol (http://) and any path after slash (/book, etc)."
+                    "Note: Take just the domain name, without protocol (https://) and any path after slash (/book, etc)."
                 );
 
                 e.preventDefault();
