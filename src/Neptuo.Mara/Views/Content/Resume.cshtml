@@ -156,6 +156,24 @@
             </ul>
         }
 
+        @if (Model.Languages.Length > 0)
+        {
+            <h2 class="h4 mt-4 mb-4">Languages</h2>
+            <ul>
+                @foreach (var language in Model.Languages)
+                {
+                    <li>
+                        @language.Name
+                        <br />
+
+                        <span class="text-muted">
+                            @language.Fluency
+                        </span>
+                    </li>
+                }
+            </ul>
+        }
+
         @if (Model.Interests.Length > 0)
         {
             <h2 class="h4 mt-4 mb-4">Interests</h2>

@@ -3,7 +3,7 @@
         "name": "Marek Fišera",
         "label": "Programmer / Architect",
         "birth": "1988-01-18",
-        "summary": "In last more that 10 years I worked on different platforms with different tools. Most of the time I was working with technologies, but I also have a lots of experience with Windows desktop and Visual Studio Extensibility. In last few years I focus on software architecture, clean code and most lastly on scalability and microservices.",
+        "summary": "In last more that 10 years I worked on different platforms with different tools. Most of the time I was working with technologies, but I also have a lot of experience with Windows desktop and Visual Studio Extensibility. In last few years I focus on software architecture, clean code and most lately on scalability and microservices.",
         "website": "https://mara.neptuo.com",
         "email": "mara@neptuo.com",
         "location": {
@@ -206,6 +206,12 @@
             "name": "is4wfw - CMS",
             "url": "https://github.com/maraf/PHP-WebFramework",
             "description": "Component-based CMS written in PHP with multi tenant support, used defined custom entites, etc."
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Understanding text and basic conversation"
         }
     ],
     "interests": [

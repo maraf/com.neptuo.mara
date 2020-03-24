@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace Neptuo.Mara.Models.Resumes
         public SkillModel[] Skills { get; set; }
         public WorkModel[] Work { get; set; }
         public ProjectModel[] Projects { get; set; }
+        public LanguageModel[] Languages { get; set; }
         public InterestModel[] Interests { get; set; }
     }
 
@@ -83,6 +85,13 @@ namespace Neptuo.Mara.Models.Resumes
         public string Name { get; set; }
         public string Url { get; set; }
         public string Description { get; set; }
+    }
+
+    public class LanguageModel
+    {
+        [JsonProperty("language")]
+        public string Name { get; set; }
+        public string Fluency { get; set; }
     }
 
     public class InterestModel
