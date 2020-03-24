@@ -41,6 +41,9 @@ namespace Neptuo.Mara.Controllers
 
         public ActionResult NotFound()
         {
+            if (Request.AppRelativeCurrentExecutionFilePath == "~/resume.json")
+                return ResumeJson();
+
             return View();
         }
     }
