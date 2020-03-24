@@ -210,6 +210,10 @@
     ],
     "languages": [
         {
+            "language": "Czech",
+            "fluency": "Native language"
+        },
+        {
             "language": "English",
             "fluency": "Understanding text and basic conversation"
         }
