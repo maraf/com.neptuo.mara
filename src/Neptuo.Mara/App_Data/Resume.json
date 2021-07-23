@@ -60,9 +60,8 @@
         },
         {
             "keywords": [
-                "C#",
-                "PHP",
-                "ASP.NET Core"
+                "ASP.NET Core",
+                "PHP"
             ],
             "level": "Senior",
             "name": "Backend"
@@ -105,8 +104,7 @@
             ],
             "company": "APS Management Services s.r.o.",
             "position": "Developer / architect",
-            "startDate": "2019",
-            "endDate": "2020"
+            "startDate": "2019"
         },
         {
             "summary": "Solution architect (contractor)",
@@ -177,6 +175,11 @@
             "name": "Money - personal expense manager",
             "url": "https://github.com/maraf/Money",
             "description": "Cutting edge web technologies - blazor (web assembly), SignalR, CQRS"
+        },
+        {
+            "name": "Recollections",
+            "url": "https://github.com/neptuo/Recollections",
+            "description": "Cutting edge web technologies - blazor (web assembly)"
         },
         {
             "name": "Kubernets cluster running on bunch of raspberry pi",

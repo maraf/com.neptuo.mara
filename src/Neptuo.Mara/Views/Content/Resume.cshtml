@@ -114,28 +114,6 @@
             </ul>
         }
 
-        @if (Model.Skills.Length > 0)
-        {
-            <h2 class="h4 mt-4 mb-4">Skills</h2>
-            <ul>
-                @foreach (var skill in Model.Skills)
-                {
-                    <li class="mb-3 print-inside-avoid">
-                        <h3 class="h6 mt-0 mb-0">
-                            @skill.Name
-                            <small class="text-muted">@skill.Level</small>
-                        </h3>
-                        <ul>
-                            @foreach (var keyword in skill.Keywords)
-                            {
-                                <li>@keyword</li>
-                            }
-                        </ul>
-                    </li>
-                }
-            </ul>
-        }
-
         @if (Model.Projects.Length > 0)
         {
             <h2 class="h4 mt-4 mb-4">Projects</h2>
@@ -153,6 +131,28 @@
                                 </span>
                             </a>
                         }
+                    </li>
+                }
+            </ul>
+        }
+
+        @if (Model.Skills.Length > 0)
+        {
+            <h2 class="h4 mt-4 mb-4">Skills</h2>
+            <ul>
+                @foreach (var skill in Model.Skills)
+                {
+                    <li class="mb-3 print-inside-avoid">
+                        <h3 class="h6 mt-0 mb-0">
+                            @skill.Name
+                            <small class="text-muted">@skill.Level</small>
+                        </h3>
+                        <ul>
+                            @foreach (var keyword in skill.Keywords)
+                            {
+                                <li>@keyword</li>
+                            }
+                        </ul>
                     </li>
                 }
             </ul>
