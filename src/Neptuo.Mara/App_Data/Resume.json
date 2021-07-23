@@ -97,16 +97,6 @@
     ],
     "work": [
         {
-            "summary": "Full stack developer (contractor)",
-            "highlights": [
-                "Internal system for managing assets.",
-                "Solution based on CMS (PHP) with custom data structures."
-            ],
-            "company": "APS Management Services s.r.o.",
-            "position": "Developer / architect",
-            "startDate": "2019"
-        },
-        {
             "summary": "Solution architect (contractor)",
             "highlights": [
                 "Technical steering.",
@@ -116,6 +106,16 @@
             "company": "MagicWare s.r.o.",
             "position": "Architect",
             "startDate": "2017"
+        },
+        {
+            "summary": "Full stack developer (contractor)",
+            "highlights": [
+                "Internal system for managing assets.",
+                "Solution based on CMS (PHP) with custom data structures."
+            ],
+            "company": "APS Management Services s.r.o.",
+            "position": "Developer / architect",
+            "startDate": "2019"
         },
         {
             "summary": "Full stack developer (contractor)",
