@@ -97,6 +97,16 @@
     ],
     "work": [
         {
+            "summary": "Software engineer",
+            "highlights": [
+                "Working on .NET runtime for WebAssembly and related tools.",
+                "Focused on build, bundling and application startup"
+            ],
+            "company": "Microsoft",
+            "position": "Software engineer",
+            "startDate": "2021"
+        },
+        {
             "summary": "Solution architect (contractor)",
             "highlights": [
                 "Technical steering.",
@@ -105,7 +115,8 @@
             ],
             "company": "MagicWare s.r.o.",
             "position": "Architect",
-            "startDate": "2017"
+            "startDate": "2017",
+            "endDate": "2021"
         },
         {
             "summary": "Full stack developer (contractor)",
@@ -115,7 +126,8 @@
             ],
             "company": "APS Management Services s.r.o.",
             "position": "Developer / architect",
-            "startDate": "2019"
+            "startDate": "2019",
+            "endDate": "2021"
         },
         {
             "summary": "Full stack developer (contractor)",
